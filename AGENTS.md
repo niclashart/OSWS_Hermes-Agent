@@ -30,3 +30,4 @@ Full methodology: skill `rag-radar`. The rules below always apply.
 7. Commit messages: `screen: <n> items (<k> relevant)`, `note: <id>`, `proposal: <id>`, `report: <YYYY-MM>`.
    Always `git pull --rebase` before `git push`.
 8. Do not edit `reference/`, `state/seen.json`, `AGENTS.md`.
+9. Never change the git identity (`user.name`, `user.email`) and never add `Co-Authored-By` or other attribution trailers to commit messages.
