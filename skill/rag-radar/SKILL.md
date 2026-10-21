@@ -19,22 +19,31 @@ References (read before scoring / proposing):
 - `reference/proposal-template.yaml` — template for proposals
 - `vault/Templates/paper-note.md` — template for vault notes
 
+## Runtime constraints (cron, no user present)
+- Do NOT install packages (`pip`, `uv`, `apt`) and do NOT run inline scripts (`python -c`, `sh -c`, `node -e`);
+  they are blocked in cron and waste memory on this 4 GB VPS.
+- Do NOT use the browser tool. Use plain HTTP fetches (web/extract tool or `curl`) only.
+- Read paper full text from the arXiv HTML version `https://arxiv.org/html/<arxiv-id>`;
+  if it does not exist, use the abstract only. Never parse PDFs.
+- Download PDFs with a single command: `curl -sSfL -o papers/<id>/paper.pdf https://arxiv.org/pdf/<arxiv-id>`.
+- Process at most 30 inbox items per run; leave the rest in the inbox for the next run.
+
 ## Mode 1 — Daily screening (job `radar-daily`)
-1. Read every line of `state/inbox.jsonl`.
+1. Read the first 30 lines of `state/inbox.jsonl`.
 2. For each item: score A–E per rubric, using title + abstract (fetch the arXiv abstract page if the abstract is empty).
 3. Append one row per item to `screening.csv`:
    `date,id,source,title,score,A,B,C,D,E,decision,reason` (date `YYYY-MM-DD`, title in double quotes,
    decision `relevant` or `logged`).
 4. For each item with score >= 7 that is an arXiv paper:
    - verify ID via `https://export.arxiv.org/api/query?id_list=<arxiv-id>` (title must match),
-   - download `https://arxiv.org/pdf/<arxiv-id>` to `papers/<id>/paper.pdf`,
-   - read the PDF (at least abstract, method, results) and write `papers/<id>/summary.md`:
+   - download the PDF with `curl` (see runtime constraints) to `papers/<id>/paper.pdf`,
+   - read `https://arxiv.org/html/<arxiv-id>` (at least abstract, method, results) and write `papers/<id>/summary.md`:
      core idea, key results as verbatim quotes with section, rubric score with justification per criterion,
      affected axis (name from `nimbf-capabilities.md`) or `New-Techniques`,
    - create `vault/Papers/<id>.md` from the template (`status: screened`, links to GitHub, **no PDF**),
    - append `- [[<id>]] — <one-line idea> (<score>)` to `vault/Axes/<Axis>.md`.
    GitHub releases with score >= 7: no PDF, only `papers/<id>/summary.md` + vault note.
-5. Truncate `state/inbox.jsonl` to empty.
+5. Remove the processed lines from `state/inbox.jsonl` (keep unprocessed ones).
 6. `git add -A && git commit -m "screen: <n> items (<k> relevant)" && git pull --rebase && git push`.
 7. Final answer (sent to Telegram): number screened, list of relevant items with score and one line each. Nothing else.
 
