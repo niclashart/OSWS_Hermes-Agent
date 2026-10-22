@@ -1,1 +1,31 @@
 date,id,source,title,score,A,B,C,D,E,decision,reason
+2026-10-22,arxiv-2610.29933,arxiv,"Graph Topology Meets Energy-Driven Pathfinding: Preserving Contextual Consistency in Retrieval-Augmented Generation",8,2,2,1,2,1,relevant,A=2: graph RAG technique (new axis needed)
+2026-10-22,arxiv-2610.29792,arxiv,"MAPS: Macro-Adaptive Parallel Reasoning for Regulating Search Momentum in Retrieval-Augmented Generation",8,2,2,2,2,0,relevant,A=2: agentic parallel query decomposition (not expressible); E=0 needs reasoning loop
+2026-10-22,arxiv-2610.29722,arxiv,"Retrieval Augmented Generation Compositionality",9,2,2,2,2,1,relevant,A=2: composition benchmark directly relevant to NIMBF grid methodology; open-source LASAGNA
+2026-10-22,arxiv-2610.29545,arxiv,"PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",2,0,2,2,2,0,logged,A=0: KV/state quantization unrelated to RAG pipelines
+2026-10-22,arxiv-2610.29234,arxiv,"Learning Marginal Viewpoint Utility for Budgeted Evidence Selection in RAG",7,2,2,1,2,0,relevant,A=2: new evidence-selection/reranking criterion; E=0 needs trained ranker component
+2026-10-22,arxiv-2610.29223,arxiv,"C$^2$U in RAG: Compositional Concept Unlearning in Retrieval-Augmented Generation",6,2,2,1,2,0,logged,E=0: query-side suppression needs trained direction editing, no NIMBF slot
+2026-10-22,arxiv-2610.29210,arxiv,"Understanding Target Probability Reuse in Speculative Decoding",2,0,2,2,2,0,logged,A=0: speculative decoding, not a RAG pipeline technique
+2026-10-22,arxiv-2610.28957,arxiv,"Scan or Index? large Evidence Coverage, Answer Quality, and Cost in Long-Document RAG",8,2,2,2,2,0,relevant,A=2: evaluation of long-doc retrieval modes incl. full-scan (new retrieval-mode value); E=0 no slot for scan-mode
+2026-10-22,arxiv-2610.28895,arxiv,"CSD: Common-Support Distillation for Cross-Tokenizer Knowledge Transfer",2,0,2,2,2,0,logged,A=0: cross-tokenizer distillation, unrelated to RAG axes
+2026-10-22,arxiv-2610.28435,arxiv,"Multimodal Reranking Is a System One Decision",6,2,2,1,2,1,logged,C=1: VLM reranker not pluggable as sentence-transformers cross-encoder
+2026-10-22,arxiv-2610.28340,arxiv,"DeclineCraft: A RAG Abstention Benchmark for Jointly Measuring Combined Retrieval and Parametric Knowledge",8,2,2,2,2,0,relevant,A=2: new abstention evaluation axis/dataset; E=0 needs new metric adapter
+2026-10-22,arxiv-2610.28176,arxiv,"Temporal Evidence-Parameter Co-Alignment for LLM Reasoning over Temporal Knowledge Graphs",5,2,2,1,2,0,logged,E=0: needs TKG pruning + DG-LoRA training, framework redesign
+2026-10-22,arxiv-2610.27829,arxiv,"GARRET: Generative Feedback for Region Retrieval in Visual Documents",5,2,2,1,2,0,logged,A=2 for multimodal region retrieval but E=0: trained visual retriever, no NIMBF adapter
+2026-10-22,arxiv-2610.27820,arxiv,"SMART: Semantic Segment Mapping and Assessment of Recognition Transcripts with Contextual Rubrics",2,0,2,1,2,1,logged,A=0: ASR evaluation, not RAG
+2026-10-22,arxiv-2610.27114,arxiv,"Joint Constraint Aggregation for Qualifier-Sensitive Retrieval-Augmented QA",7,2,2,1,2,0,relevant,A=2: new answer-selection stage against question requirements; E=0 needs new component
+2026-10-22,arxiv-2610.27109,arxiv,"Beyond Two Tracks: Speaker-Anchored Full-Duplex Dialogue Recovery",1,0,2,1,2,0,logged,A=0: speech diarization, unrelated
+2026-10-22,arxiv-2610.26825,arxiv,"MemT-1.0: Towards Memory-Native Evolution",4,2,2,1,0,0,logged,D=0: memory foundation model needs full training/35B-class infra
+2026-10-22,arxiv-2610.26730,arxiv,"EpiLens: Lightweight RAG for Epidemiological Knowledge Acquisition",7,2,2,2,2,0,relevant,A=2: open-source RAG package w/ fixed template+schema pattern; E=0 domain workflow not an axis value
+2026-10-22,arxiv-2610.26425,arxiv,"SNO-PI: Label-Scarce SNOMED CT Entity Linking with Pre-trained Encoders and Curated Terminology Knowledge",2,0,2,2,2,1,logged,A=0: entity linking, not a RAG pipeline technique
+2026-10-22,arxiv-2610.26339,arxiv,"Large-Scale Biomedical RAG: Corpus Scaling, Document Representation, and Efficiency Trade-offs",7,2,2,1,2,0,relevant,A=2: document-representation (hierarchical vs flat) as evaluation variable; E=0 no representation axis slot
+2026-10-22,arxiv-2610.26260,arxiv,"Preference Is Not Position: Evaluating Reranking on NevIR in Fixed Hybrid Candidate Pools",7,2,2,2,2,1,relevant,A=2: reranker evaluation protocol + pluggable Qwen/BGE rerankers (E=1)
+2026-10-22,arxiv-2610.26233,arxiv,"Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents",3,1,2,1,2,0,logged,A=1: voice-agent latency paradigm, marginal to RAG axes
+2026-10-22,arxiv-2610.25779,arxiv,"OpenSaC: A Python Library for Search as Code in Deep Research Agents",7,2,2,2,2,0,relevant,A=2: agentic search-as-code retrieval loop (not expressible); open source
+2026-10-22,arxiv-2610.25678,arxiv,"Cross-Pollination Retrieval: Finding Transferable Ideas Across Fields in Scientific Literature",7,2,2,2,2,0,relevant,A=2: new retrieval domain + dataset (CPR-eval) and fine-tuned retriever (not expressible)
+2026-10-22,arxiv-2610.25575,arxiv,"Benchmark for Structured Retrieval-Augmented Generation in Perovskite Photovoltaics",8,2,2,2,2,0,relevant,A=2: text vs SQL structured retrieval benchmark (new retrieval mode); E=0 no SQL adapter
+2026-10-22,arxiv-2610.25298,arxiv,"Aligning Language Models with Indigenous Community Cosmovision through Constitutional AI",2,0,2,1,2,0,logged,A=0: CAI alignment, RAG only as app layer
+2026-10-22,arxiv-2610.25282,arxiv,"MEMORA: A Memory-Enhanced Multimodal Committee Reranking Agent for Reasoning-Intensive Retrieval",7,2,2,2,2,0,relevant,A=2: agentic committee reranking with memory (not expressible); code available
+2026-10-22,arxiv-2610.25212,arxiv,"Calibration-Free Early Stopping for Chain-of-Thought Reasoning via E-processes",2,0,2,1,2,1,logged,A=0: reasoning early stopping, not RAG
+2026-10-22,arxiv-2610.25192,arxiv,"Acharya 2.0: An AI Tutor for Self-Learning Subjects in Hindi",1,1,0,2,2,1,logged,A=1: application paper, no experiments vs baselines
+2026-10-22,arxiv-2610.25185,arxiv,"Reranking Answers of Large Language Models with Knowledge Graphs",5,2,1,1,2,0,logged,B=1: single benchmark (Wikidata), E=0 KG subgraph reranking needs new component
