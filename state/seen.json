@@ -188,6 +188,7 @@
 "gh-langchain-ai_langchain-langchain-perplexity==1.4.2",
 "gh-langchain-ai_langchain-langchain==1.4.7",
 "gh-ollama_ollama-v0.40.10",
+"gh-ollama_ollama-v0.40.11",
 "gh-ollama_ollama-v0.40.5",
 "gh-ollama_ollama-v0.40.6",
 "gh-ollama_ollama-v0.40.7",
