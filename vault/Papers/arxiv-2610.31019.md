@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 2, C: 1, D: 2, E: 1}
 axis: [Chunking]
-status: screened
+status: proposed
 screened: 2026-10-23
 source: https://arxiv.org/abs/2610.31019
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2610.31019/paper.pdf
@@ -31,3 +31,4 @@ Update cost is a new evaluation dimension for the Chunking axis; content-defined
 
 ## Status log
 - 2026-10-23 screened
+- 2026-10-26 proposed (proposal/arxiv-2610.31019/new-axis.md: CDC chunker value + update-cost evaluation dimension)
