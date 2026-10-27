@@ -16,3 +16,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[2610.09360]] — TopoGraphRAG-Bench: multimodal GraphRAG over layout-grounded evidence topologies (7)
 
 - [[arxiv-2609.14579]] — Synthetic vs authentic query distributions diverge sharply; configs tuned on synthetic queries lose substantially on authentic traffic. (7)
+- [[2610.33849]] — Shows published query-time poisoning defenses score near-perfectly because poiso (7)
