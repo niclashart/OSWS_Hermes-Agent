@@ -48,6 +48,8 @@ References (read before scoring / proposing):
 7. Final answer (sent to Telegram): number screened, list of relevant items with score and one line each. Nothing else.
 
 ## Mode 2 — Weekly fit check (job `radar-weekly`)
+0. The pre-script `radar-metrics.py` has already pulled, written this week's row to `metrics/weekly.csv`
+   and printed the self-evaluation metrics above. Do not edit `metrics/` yourself.
 1. Candidates: vault notes with `status: screened` whose `screened` date is within the last 7 days.
 2. For each candidate decide with `nimbf-capabilities.md`:
    - **expressible** → `proposals/<id>/config.yaml` from `proposal-template.yaml`: change exactly ONE axis
@@ -57,17 +59,22 @@ References (read before scoring / proposing):
    - **new technique, not expressible** → `proposals/<id>/new-axis.md`: what RAG-NIMBF would need
      (new config key, component, adapter), estimated effort. Set `status: fit`.
    - **not useful after all** → set `status: rejected` with one-line reason in the status log.
-3. Vault status edits are committed on `main` (`note: weekly status`).
+3. Vault status edits and `metrics/weekly.csv` are committed on `main` (`note: weekly status`).
 4. Proposals: `git checkout -b proposal/<YYYY-Www>` from `main`, add only `proposals/`, commit
    (`proposal: <ids>`), `git push -u origin proposal/<YYYY-Www>`, then `git checkout main`.
 5. Final answer: list of proposals with hypothesis, list of rejects with reason, and the compare link
    `https://github.com/niclashart/OSWS_Hermes-Agent/compare/main...proposal/<YYYY-Www>?expand=1`.
-   If there are no candidates, answer only `RAG Radar weekly: no candidates.`
+   If there are no candidates, answer `RAG Radar weekly: no candidates.` instead of these lists.
+   Always end the answer with one line `Self-eval <week>: collected <n>, skipped <s>/<runs> runs,
+   relevant <relevant>/<screened>, accepted <accepted_total>/<proposed_total>, cost $<cost_usd>`
+   (values from the pre-script output, `n/a` where missing).
 
 ## Mode 3 — Monthly gap report (job `radar-monthly`)
 1. Inputs: `screening.csv` rows and vault notes of the previous calendar month, plus `vault/Axes/New-Techniques.md`.
 2. Write `reports/<YYYY-MM>-gap.md` and a copy `vault/Reports/<YYYY-MM>-gap.md`:
    - counts (screened / relevant / proposed / merged),
+   - **Self-evaluation** — the rows of `metrics/weekly.csv` for that month as a table, plus month totals
+     (collected, skip rate, relevant rate, acceptance rate, tokens, cost),
    - per axis: what is new in the literature, what RAG-NIMBF already covers, what is missing,
    - **Gaps** — techniques with evidence but no RAG-NIMBF support, ranked by evidence × feasibility,
    - suggested sentences for Related Work and Future Work of the next RAG-NIMBF paper, each with arXiv citation.
