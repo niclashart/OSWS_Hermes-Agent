@@ -13,9 +13,11 @@ Collectors → Relevance eval → PDF + summary → weekly fit check → config.
 | `papers/<id>/` | `paper.pdf` + `summary.md` for relevant papers (score >= 7) |
 | `proposals/<id>/` | `config.yaml` with hypothesis, or `new-axis.md` — via branch `proposal/<YYYY-Www>` |
 | `reports/` | monthly gap reports |
+| `metrics/weekly.csv` | self-evaluation per week: collected, skip rate, relevant rate, acceptance rate, tokens, cost |
 | `vault/` | Obsidian vault (notes only, no PDFs) — open this folder in Obsidian |
 | `reference/` | rubric, RAG-NIMBF capabilities, config template |
-| `scripts/radar-collect.py` | collector (arXiv, Semantic Scholar, GitHub releases), Hermes pre-script |
+| `scripts/radar-collect.py` | collector (arXiv, Semantic Scholar, GitHub releases), Hermes pre-script; logs runs to `state/runs.jsonl` |
+| `scripts/radar-metrics.py` | self-evaluation metrics, pre-script of `radar-weekly` |
 | `skill/rag-radar/` | Hermes skill with the methodology |
 | `AGENTS.md` | hard rules, injected into every job via `--workdir` |
 
@@ -23,7 +25,7 @@ Collectors → Relevance eval → PDF + summary → weekly fit check → config.
 | Job | Schedule (UTC) | What |
 |---|---|---|
 | `radar-daily` | `0 6 * * *` | collect → score → summaries + vault notes → push to `main` |
-| `radar-weekly` | `0 8 * * 1` | fit check → proposals on branch → Telegram compare link |
+| `radar-weekly` | `0 8 * * 1` | self-eval metrics → fit check → proposals on branch → Telegram compare link |
 | `radar-monthly` | `0 9 1 * *` | gap report |
 
 ## Review a proposal

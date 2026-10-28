@@ -10,6 +10,8 @@ Full methodology: skill `rag-radar`. The rules below always apply.
 |---|---|---|
 | `state/inbox.jsonl` | new items from collector | `radar-collect.py` only (agent empties it after processing) |
 | `state/seen.json` | dedup IDs | `radar-collect.py` only |
+| `state/runs.jsonl` | one line per collector run (new, pending, woke) | `radar-collect.py` only |
+| `metrics/weekly.csv` | self-evaluation, one row per ISO week | `radar-metrics.py` only |
 | `screening.csv` | EVERY screened item, one row each | agent |
 | `papers/<id>/paper.pdf` | PDF, score >= 7 and open access only | agent |
 | `papers/<id>/summary.md` | summary, score >= 7 only | agent |
@@ -29,5 +31,5 @@ Full methodology: skill `rag-radar`. The rules below always apply.
    the human merges after review.
 7. Commit messages: `screen: <n> items (<k> relevant)`, `note: <id>`, `proposal: <id>`, `report: <YYYY-MM>`.
    Always `git pull --rebase` before `git push`.
-8. Do not edit `reference/`, `state/seen.json`, `AGENTS.md`.
+8. Do not edit `reference/`, `state/`, `metrics/`, `AGENTS.md` (but do commit `state/` and `metrics/` changes).
 9. Never change the git identity (`user.name`, `user.email`) and never add `Co-Authored-By` or other attribution trailers to commit messages.

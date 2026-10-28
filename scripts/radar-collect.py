@@ -4,7 +4,7 @@
 Pulls the repo, queries arXiv, Semantic Scholar and GitHub releases, dedups against
 state/seen.json and appends new items to state/inbox.jsonl.
 Stdout is injected into the agent prompt; if nothing is pending it prints
-{"wakeAgent": false} so the LLM run is skipped.
+{"wakeAgent": false} so the LLM run is skipped. Every run is logged to state/runs.jsonl.
 """
 import json
 import os
@@ -19,6 +19,7 @@ import xml.etree.ElementTree as ET
 REPO = os.environ.get("RADAR_REPO", "/opt/data/osws")
 SEEN = os.path.join(REPO, "state", "seen.json")
 INBOX = os.path.join(REPO, "state", "inbox.jsonl")
+RUNS = os.path.join(REPO, "state", "runs.jsonl")  # one line per run, read by radar-metrics.py
 UA = {"User-Agent": "rag-radar/1.0 (research monitoring)"}
 
 ARXIV_QUERY = (
@@ -120,7 +121,7 @@ def github_items():
 
 
 def main():
-    subprocess.run(["git", "-C", REPO, "pull", "-q", "--rebase"], check=True)
+    subprocess.run(["git", "-C", REPO, "pull", "-q", "--rebase", "--autostash"], check=True)
     seen = set(json.load(open(SEEN))) if os.path.exists(SEEN) else set()
     first_run = not seen
 
@@ -146,6 +147,10 @@ def main():
         json.dump(sorted(seen), f, indent=0)
 
     pending = sum(1 for line in open(INBOX) if line.strip())
+    with open(RUNS, "a") as f:
+        run = {"ts": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "new": len(new),
+               "pending": pending, "woke": pending > 0}
+        f.write(json.dumps(run) + "\n")
     if pending == 0:
         print(json.dumps({"wakeAgent": False}))
         return
