@@ -150,3 +150,15 @@ date,id,source,title,score,A,B,C,D,E,decision,reason
 2026-10-27,arxiv-2610.32110,arxiv,"Who Verifies the Tools? How Warped Formatters Mislead Agents and Their Verifiers",5,2,2,1,1,1,logged,"A=2: agent/tooling reliability, but not a RAG pipeline technique for NIMBF"
 2026-10-27,arxiv-2610.31684,arxiv,"Knowledge Graphs Quality Assessment in the Era of LLMs: A Conceptual Framework",3,1,0,1,1,1,logged,"conceptual framework: A=1, B=0 no experiments"
 2026-10-27,gh-langchain-ai_langchain-langchain-openai==1.7.3,github-release,"langchain-ai/langchain langchain-openai==1.7.3",0,0,0,0,0,0,logged,"release: no new capability (dependency/chore bumps only)"
+2026-10-28,arxiv-2610.37358,arxiv,"""When Is Additional Retrieval Worthwhile? A Cost-Aware Study of Evidence Gain and Answer Reliability in RAG""",7,2,1,1,2,1,relevant,A=2
+2026-10-28,arxiv-2610.37323,arxiv,"""UCVE: Graph Structured Retrieval for Compliance Validation""",7,2,2,1,1,1,relevant,A=2
+2026-10-28,arxiv-2610.37231,arxiv,"""TaskBridge: Technical Report for SIGIR 2026 eCommerce Challenge""",7,2,1,1,2,1,relevant,A=2
+2026-10-28,arxiv-2610.37080,arxiv,"""Tessera: Structure-Completed Evidence Units for Web Retrieval-Augmented Generation""",8,2,2,1,2,1,relevant,A=2
+2026-10-28,arxiv-2610.36991,arxiv,"""SpectRAG: Weighted Chunk Graphs for Token-Budgeted Context Selection in Multi-Hop Retrieval-Augmented Generation""",8,2,2,1,1,1,relevant,A=2
+2026-10-28,arxiv-2610.36557,arxiv,"""QESChunker: A Single Objective Unifies Overlapping and Non-Overlapping Chunking for RAG""",8,2,2,1,2,1,relevant,A=2
+2026-10-28,arxiv-2610.36169,arxiv,"""Don't Pick a Winner: Knowledge Conflicts Need a Prior, Not a Rule""",7,2,1,1,2,1,relevant,A=2
+2026-10-28,arxiv-2610.36561,arxiv,"""Governed Sovereign RAG for Public Administration""",0,1,0,0,0,0,logged,A=1: deployment report; E=0: governance/sovereignty architecture not decomposable into NIMBF axes
+2026-10-28,arxiv-2610.36794,arxiv,"""Select-TTT: Query-Conditioned Selective Fast Weight Updates""",0,1,0,0,0,0,logged,"A=1: test-time fast-weight training, not a RAG-pipeline technique; E=0: needs model-internal training loop"
+2026-10-28,gh-langchain-ai_langchain-langchain-openai==1.7.3,github-release,"""langchain-openai==1.7.3""",0,0,0,0,0,0,logged,release: no new capability
+2026-10-28,gh-langchain-ai_langchain-langchain-anthropic==1.7.7,github-release,"""langchain-anthropic==1.7.7""",0,0,0,0,0,0,logged,release: no new capability
+2026-10-28,gh-ollama_ollama-v0.40.12,github-release,"""ollama v0.40.12""",0,0,0,0,0,0,logged,"C=1: adds model families (LFM3, d1), no new RAG-pipeline axis"

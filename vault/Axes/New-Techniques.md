@@ -26,3 +26,6 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[2610.34294]] — Shows stance poisoning with factually correct but one-sided retrieved documents  (7)
 - [[2610.33776]] — Failure-aware self-training: probes the student with and without retrieved conte (7)
 - [[2610.32128]] — Replaces raw retrieved passages in ICL demonstrations with LLM-generated (7)
+- [[arxiv-2610.37323]] — Graph-structured retrieval over compliance requirement spaces via spectral reranking over an RL-weighted Laplacian (7)
+- [[arxiv-2610.36991]] — Spectral graph-augmented retrieval with token-budgeted context selection for multi-hop RAG (8)
+- [[arxiv-2610.36169]] — Adaptive prior over context vs. parametric knowledge instead of a fixed conflict-resolution rule (7)
