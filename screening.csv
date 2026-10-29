@@ -162,3 +162,9 @@ date,id,source,title,score,A,B,C,D,E,decision,reason
 2026-10-28,gh-langchain-ai_langchain-langchain-openai==1.7.3,github-release,"""langchain-openai==1.7.3""",0,0,0,0,0,0,logged,release: no new capability
 2026-10-28,gh-langchain-ai_langchain-langchain-anthropic==1.7.7,github-release,"""langchain-anthropic==1.7.7""",0,0,0,0,0,0,logged,release: no new capability
 2026-10-28,gh-ollama_ollama-v0.40.12,github-release,"""ollama v0.40.12""",0,0,0,0,0,0,logged,"C=1: adds model families (LFM3, d1), no new RAG-pipeline axis"
+2026-10-29,arxiv-2610.36650,s2-citer:RAGAS,"TACO-Graph: Automated Construction of Text-Atributed Graphs",8,2,2,2,2,1,relevant,"A=2: graph-RAG construction search (new axis needed); E=1 requires graph component"
+2026-10-29,arxiv-2610.35483,s2-citer:RAGAS,"Visible Reasoning: User-Facing Decision Transparency for Generative AI Systems",2,1,1,0,1,1,logged,"A=1: UI transparency, no RAG pipeline axis; not a retrieval technique"
+2026-10-29,arxiv-2610.34875,s2-citer:RAGAS,"RubriX: A Fast, Fine-Tunable Non-Autoregressive Rubric Judge",4,2,2,1,1,1,logged,"A=2 touches Evaluation axis but E=1 needs custom metric component; judge-only, no RAG pipeline effect"
+2026-10-29,arxiv-2610.33051,s2-citer:RAGAS,"A pedagogically guided LLM framework for scaffolding human-AI cocreation and preserving learners'agency and creativity",1,1,0,2,2,0,logged,"A=1: education scaffold, RAG only incidental; E=0"
+2026-10-29,gh-langchain-ai_langchain-langchain-core==1.7.1,github-release,"langchain-core==1.7.1",0,0,0,0,0,0,logged,"release: no new capability"
+2026-10-29,gh-ollama_ollama-v0.40.13,github-release,"ollama v0.40.13",1,0,0,2,2,2,logged,"C=1: adds LFM3 model families, no new RAG-pipeline axis"
