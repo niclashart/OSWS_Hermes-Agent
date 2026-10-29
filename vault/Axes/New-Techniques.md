@@ -29,3 +29,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2610.37323]] — Graph-structured retrieval over compliance requirement spaces via spectral reranking over an RL-weighted Laplacian (7)
 - [[arxiv-2610.36991]] — Spectral graph-augmented retrieval with token-budgeted context selection for multi-hop RAG (8)
 - [[arxiv-2610.36169]] — Adaptive prior over context vs. parametric knowledge instead of a fixed conflict-resolution rule (7)
+- [[arxiv-2610.36650]] — Decision trees learn best text-attributed-graph construction (node/edge/text choices) via cheap proxy scoring (8)
