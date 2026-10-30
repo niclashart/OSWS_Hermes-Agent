@@ -24,3 +24,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2609.37669]] — Unified open-weight benchmark of six RAG4SVD systems with component-level analysis; oracle retrieval still leaves pairwise accuracy at 0.51. (7)
 - [[2610.34872]] — Applies claim-level conformal factuality filtering after agentic RAG (adaptive f (7)
 - [[2610.34073]] — Large-scale evaluation showing many dedicated memory systems underperform naive  (7)
+- [[2610.37962]] — Statistical Detection of Positional Bias in LLM-Based Recommender Systems: Methodologies a (7)
