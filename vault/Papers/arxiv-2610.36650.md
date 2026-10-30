@@ -31,3 +31,4 @@ Not expressible: graph RAG is a known gap → [[New-Techniques]]. Would need a g
 
 ## Status log
 - 2026-10-29 screened
+- 2026-10-30 impl-check: NIMBF missing, Blueprint not-applicable
