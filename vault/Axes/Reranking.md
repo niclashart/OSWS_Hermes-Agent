@@ -11,3 +11,6 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[2609.38473]] — Controlled comparison: reranking + ColBERTv2 late interaction drive retrieval quality (10)
 - [[2610.35840]] — ACARe is a compact 4B LLM reranker that scores documents against the agent-gener (7)
 - [[2610.32318]] — Compares decision fine-tuned (System One) models against reranker fine-tunes of  (8)
+- [[2610.38683]] — Quantum-Inspired Pairwise Ranking Aggregation via Active LLM Feedback (7)
+- [[2610.40454]] — Glance: The Generator Is Its Own Reranker (8)
+- [[2610.38090]] — Predicting What Answer Engines Cite: Open Decision Models, Rerankers and a Distilled 4B St (8)
