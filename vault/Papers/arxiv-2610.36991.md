@@ -31,3 +31,4 @@ Not expressible today — graph/conflict-handling technique; weekly fit check sh
 
 ## Status log
 - 2026-10-28 screened
+- 2026-10-30 impl-check: NIMBF missing, Blueprint not-applicable

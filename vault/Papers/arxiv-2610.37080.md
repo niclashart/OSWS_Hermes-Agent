@@ -31,3 +31,4 @@ Candidate value for `matrix.chunking_strategies` or a new adapter component; dec
 
 ## Status log
 - 2026-10-28 screened
+- 2026-10-30 impl-check: NIMBF missing, Blueprint partial
