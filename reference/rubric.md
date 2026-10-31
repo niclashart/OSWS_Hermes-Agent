@@ -14,5 +14,12 @@ Below 7 → only a row in `screening.csv`.
 ## Notes
 - Survey / position papers: A max 1, B = 0, unless they introduce a benchmark or dataset.
 - New evaluation protocols / datasets: score A against the `Evaluation` / `Datasets` axes.
+- HF models (`source: hf-model:embedder|reranker`, leaderboard watch): score from the model card (`abstract`) and the
+  `mteb` link. A = 2 only if the card reports retrieval/reranking numbers that beat a model RAG-NIMBF users already run
+  (e.g. bge-m3, bge-reranker-v2-m3, nomic-embed-text, Qwen3-Embedding/Reranker) or adds a clear capability
+  (multilingual/German, long context, much smaller at equal quality); otherwise A <= 1. B: MTEB/BEIR results with
+  baselines = 2, own unverified numbers = 1, none = 0. E = 2 only if loadable via sentence-transformers
+  (`SentenceTransformer` / `CrossEncoder`) — late-interaction (ColBERT), LLM-listwise or multimodal rerankers = E 1
+  (new provider). Domain-specific fine-tunes (legal, single non-English language except German) A max 1.
 - GitHub releases: score only if the release adds a capability usable as a RAG-NIMBF axis value; otherwise 0 with reason `release: no new capability`.
 - In `screening.csv` the `reason` column must name the decisive criterion, e.g. `E=0: requires training loop`.
