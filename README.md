@@ -17,7 +17,7 @@ Collectors → Relevance eval → PDF + summary → weekly fit check → config.
 | `metrics/weekly.csv` | self-evaluation per week: collected, skip rate, relevant rate, acceptance rate, tokens, cost |
 | `vault/` | Obsidian vault (notes only, no PDFs) — open this folder in Obsidian |
 | `reference/` | rubric, RAG-NIMBF capabilities, config template |
-| `scripts/radar-collect.py` | collector (arXiv, Semantic Scholar, GitHub releases), Hermes pre-script; logs runs to `state/runs.jsonl` |
+| `scripts/radar-collect.py` | collector (arXiv, Semantic Scholar, GitHub releases, new trending HF embedders/rerankers with MTEB link), Hermes pre-script; logs runs to `state/runs.jsonl` |
 | `scripts/radar-metrics.py` | self-evaluation metrics, pre-script of `radar-weekly` |
 | `scripts/radar-impl.py` | candidate selection + repo snapshot (NIMBF `main`, Blueprint all branches), pre-script of `radar-impl` |
 | `skill/rag-radar/` | Hermes skill with the methodology |

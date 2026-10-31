@@ -1,7 +1,7 @@
 #!/opt/hermes/.venv/bin/python3
 """RAG Radar collector (Hermes cron pre-script, no LLM).
 
-Pulls the repo, queries arXiv, Semantic Scholar and GitHub releases, dedups against
+Pulls the repo, queries arXiv, Semantic Scholar, GitHub releases and new HF embedders/rerankers, dedups against
 state/seen.json and appends new items to state/inbox.jsonl.
 Stdout is injected into the agent prompt; if nothing is pending it prints
 {"wakeAgent": false} so the LLM run is skipped. Every run is logged to state/runs.jsonl.
@@ -120,13 +120,87 @@ def github_items():
             }
 
 
+# HF Hub pipeline tags whose new models map to a RAG-NIMBF slot (see reference/nimbf-capabilities.md).
+HF_KINDS = {
+    "sentence-similarity": ("embedder", "embedding_models"),
+    "text-ranking": ("reranker", "reranker_models"),
+}
+MTEB_RESULTS = "embeddings-benchmark/results"
+HF_MAX_AGE_DAYS = 60
+HF_MAX_PARAMS = 12e9  # ~24 GB VRAM in BF16 (rubric D)
+QUANT_MARKERS = ("gguf", "awq", "gptq", "mlx", "onnx", "int4", "int8", "fp8", "exl2")
+
+
+def _keep_model(m, cutoff):
+    if (m.get("createdAt") or "")[:10] < cutoff:
+        return False
+    if m.get("likes", 0) < 5 and m.get("downloads", 0) < 1000:
+        return False
+    tags = [t.lower() for t in m.get("tags") or []]
+    if any(t.startswith("base_model:quantized:") for t in tags) or any(
+        q in tags or q in m["id"].lower() for q in QUANT_MARKERS
+    ):
+        return False  # quantised re-uploads duplicate the original model
+    params = (m.get("safetensors") or {}).get("total")
+    return not params or params <= HF_MAX_PARAMS
+
+
+def hf_model_items(fetch=get, today=None, seen=()):
+    """New trending embedders/rerankers on the HF Hub (leaderboard watch)."""
+    today = today or time.strftime("%Y-%m-%d", time.gmtime())
+    cutoff = time.strftime(
+        "%Y-%m-%d", time.gmtime(time.mktime(time.strptime(today, "%Y-%m-%d")) - HF_MAX_AGE_DAYS * 86400)
+    )
+    for tag, (kind, yaml_key) in HF_KINDS.items():
+        url = (
+            f"https://huggingface.co/api/models?pipeline_tag={tag}&sort=trendingScore&limit=50"
+            "&expand[]=createdAt&expand[]=likes&expand[]=downloads&expand[]=safetensors"
+            "&expand[]=tags&expand[]=cardData&expand[]=library_name"
+        )
+        for m in json.loads(fetch(url)):
+            if f"hf-{m['id'].replace('/', '_')}" in seen or not _keep_model(m, cutoff):
+                continue
+            mid = m["id"]
+            params = (m.get("safetensors") or {}).get("total")
+            if not params:
+                size = "size unknown"
+            elif params < 1e9:
+                size = f"{params / 1e6:.0f}M params"
+            else:
+                size = f"{params / 1e9:.1f}B params"
+            license_ = (m.get("cardData") or {}).get("license") or "no license"
+            try:
+                card = fetch(f"https://huggingface.co/{mid}/raw/main/README.md").decode("utf-8", "replace")
+            except Exception:
+                card = ""
+            mteb_name = mid.replace("/", "__")
+            try:
+                fetch(f"https://api.github.com/repos/{MTEB_RESULTS}/contents/results/{mteb_name}")
+                mteb = f"https://github.com/{MTEB_RESULTS}/tree/main/results/{mteb_name}"
+            except urllib.error.HTTPError:
+                mteb = ""
+            yield {
+                "id": f"hf-{mid.replace('/', '_')}",
+                "source": f"hf-model:{kind}",
+                "title": f"{mid} (new {kind}, {size}, {license_})",
+                "abstract": card[:3000],
+                "url": f"https://huggingface.co/{mid}",
+                "published": (m.get("createdAt") or "")[:10],
+                "slot": f"{yaml_key}: huggingface:{mid}",
+                "mteb": mteb,
+            }
+
+
 def main():
     subprocess.run(["git", "-C", REPO, "pull", "-q", "--rebase", "--autostash"], check=True)
     seen = set(json.load(open(SEEN))) if os.path.exists(SEEN) else set()
     first_run = not seen
 
+    def hf_items():
+        return hf_model_items(seen=seen)
+
     new = []
-    for gen in (arxiv_items, s2_items, github_items):
+    for gen in (arxiv_items, s2_items, github_items, hf_items):
         try:
             for item in gen():
                 if item["id"] in seen:

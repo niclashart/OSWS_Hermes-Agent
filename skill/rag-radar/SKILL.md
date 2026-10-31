@@ -1,7 +1,7 @@
 ---
 name: rag-radar
 description: Screen new RAG research for RAG-NIMBF — score with rubric, summarise relevant papers, maintain the Obsidian vault, propose config.yaml experiments in a weekly fit check, propose code for RAG-NIMBF and Enterprise_RAG_Blueprint in a weekly implementation check, write monthly gap reports.
-version: 1.1.0
+version: 1.2.0
 author: Niclas Hart
 metadata:
   hermes:
@@ -43,6 +43,11 @@ References (read before scoring / proposing):
    - create `vault/Papers/<id>.md` from the template (`status: screened`, links to GitHub, **no PDF**),
    - append `- [[<id>]] — <one-line idea> (<score>)` to `vault/Axes/<Axis>.md`.
    GitHub releases with score >= 7: no PDF, only `papers/<id>/summary.md` + vault note.
+   HF models (`source: hf-model:*`) with score >= 7: no PDF; `papers/<id>/summary.md` from the model card
+   (size, license, reported MTEB/BEIR numbers as verbatim quotes, `mteb` link if present) plus the ready-to-use
+   `slot` line (e.g. `reranker_models: huggingface:<hf-id>`); vault note under axis `Embedding` or `Reranking`.
+   In Mode 2 such a model is **expressible** iff E = 2: the proposal compares it against the current default
+   model of that axis (one axis changed).
 5. Remove the processed lines from `state/inbox.jsonl` (keep unprocessed ones).
 6. `git add -A && git commit -m "screen: <n> items (<k> relevant)" && git pull --rebase && git push`.
 7. Final answer (sent to Telegram): number screened, list of relevant items with score and one line each. Nothing else.
