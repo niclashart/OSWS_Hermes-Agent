@@ -32,3 +32,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2610.36650]] — Decision trees learn best text-attributed-graph construction (node/edge/text choices) via cheap proxy scoring (8)
 - [[2610.34507]] — The Price of Scale in Proactive Memory Recall (7)
 - [[2610.38366]] — TCC-RAG: Temporal Causal Chain-Guided RAG for Temporal Knowledge Graph Question Answering (7)
+- [[hf-caveman-so_trim-1]] — 1.2 MB GBDT context compressor: keeps only query-relevant lines verbatim (8)
