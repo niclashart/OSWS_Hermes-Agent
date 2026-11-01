@@ -268,5 +268,12 @@
 "gh-ollama_ollama-v0.40.6",
 "gh-ollama_ollama-v0.40.7",
 "gh-ollama_ollama-v0.40.8",
-"gh-ollama_ollama-v0.40.9"
+"gh-ollama_ollama-v0.40.9",
+"hf-Contrastive-LM_CLM-v0.1-8B",
+"hf-HukukcuApp_tr-legal-embedding-gemma-2",
+"hf-VAGOsolutions_SauerkrautLM-MoEdernColBERT-115M",
+"hf-VAGOsolutions_SauerkrautLM-MoEdernColBERT-27M",
+"hf-caveman-so_trim-1",
+"hf-nlpai-lab_KURE-v3",
+"hf-nvidia_Nemotron-3.5-Rerank-8B-BF16"
 ]
