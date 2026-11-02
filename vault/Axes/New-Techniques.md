@@ -33,3 +33,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[2610.34507]] — The Price of Scale in Proactive Memory Recall (7)
 - [[2610.38366]] — TCC-RAG: Temporal Causal Chain-Guided RAG for Temporal Knowledge Graph Question Answering (7)
 - [[hf-caveman-so_trim-1]] — 1.2 MB GBDT context compressor: keeps only query-relevant lines verbatim (8)
+- [[arxiv-2610.41172]] — Knowledge compilation / claim-evidence trees: −38% query tokens, latency 140s→30s, no accuracy gain (7)
