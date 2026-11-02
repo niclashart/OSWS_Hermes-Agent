@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 1, C: 2, D: 2, E: 1}
 axis: [Embedding]
-status: screened
+status: fit
 screened: 2026-11-01
 source: https://huggingface.co/VAGOsolutions/SauerkrautLM-MoEdernColBERT-27M
 pdf: 
@@ -32,3 +32,4 @@ Not expressible today (late-interaction embedder → new provider; candidate for
 
 ## Status log
 - 2026-11-01 screened (HF model: no PDF, slot `embedding_models: huggingface:VAGOsolutions/SauerkrautLM-MoEdernColBERT-27M`)
+- 2026-11-02 fit-check (W45): not expressible (late-interaction embedder) → proposals/hf-VAGOsolutions_SauerkrautLM-MoEdernColBERT-27M/new-axis.md; status fit

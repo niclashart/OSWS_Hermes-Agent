@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 2, C: 1, D: 2, E: 1}
 axis: [Chunking]
-status: screened
+status: fit
 screened: 2026-10-28
 source: https://arxiv.org/abs/2610.37080
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2610.37080/paper.pdf
@@ -31,4 +31,5 @@ Candidate value for `matrix.chunking_strategies` or a new adapter component; dec
 
 ## Status log
 - 2026-10-28 screened
+- 2026-11-02 fit-check (W45): not expressible (query-time evidence-unit layer) → proposals/arxiv-2610.37080/new-axis.md; status fit
 - 2026-10-30 impl-check: NIMBF missing, Blueprint partial
