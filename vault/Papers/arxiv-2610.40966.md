@@ -6,7 +6,7 @@ year: 2026
 score: 9
 rubric: {A: 2, B: 2, C: 2, D: 2, E: 1}
 axis: [Evaluation]
-status: screened
+status: fit
 screened: 2026-11-02
 source: https://arxiv.org/abs/2610.40966
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2610.40966/paper.pdf
@@ -32,3 +32,4 @@ Evaluation axis: refusal/abstention metrics must use content sufficiency labels,
 
 ## Status log
 - 2026-11-02 screened
+- 2026-11-02 fit-check (W45): not expressible (abstention labels need content sufficiency, not gold-doc presence) → proposals/arxiv-2610.40966/new-axis.md; status fit

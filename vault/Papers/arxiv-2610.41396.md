@@ -6,7 +6,7 @@ year: 2026
 score: 9
 rubric: {A: 2, B: 2, C: 2, D: 1, E: 2}
 axis: [Datasets]
-status: screened
+status: proposed
 screened: 2026-11-02
 source: https://arxiv.org/abs/2610.41396
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2610.41396/paper.pdf
@@ -31,3 +31,4 @@ A 2 · B 2 · C 2 · D 1 · E 2 — new dataset/benchmark for the Datasets axis,
 
 ## Status log
 - 2026-11-02 screened
+- 2026-11-02 fit-check (W45): expressible (Datasets axis) → proposals/arxiv-2610.41396/config.yaml (reranker arm, nDCG@10 gold_doc); status proposed

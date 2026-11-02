@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 1, C: 2, D: 2, E: 1}
 axis: [New-Techniques]
-status: screened
+status: fit
 screened: 2026-11-01
 source: https://huggingface.co/caveman-so/trim-1
 pdf: 
@@ -31,3 +31,4 @@ New axis needed: context compression / selection under a token budget between re
 
 ## Status log
 - 2026-11-01 screened (HF model: no PDF)
+- 2026-11-02 fit-check (W45): not expressible (context compression) → proposals/hf-caveman-so_trim-1/new-axis.md; status fit

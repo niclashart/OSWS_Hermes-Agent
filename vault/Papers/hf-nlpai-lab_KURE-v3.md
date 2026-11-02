@@ -6,7 +6,7 @@ year: 2026
 score: 9
 rubric: {A: 1, B: 2, C: 2, D: 2, E: 2}
 axis: [Embedding]
-status: screened
+status: rejected
 screened: 2026-11-01
 source: https://huggingface.co/nlpai-lab/KURE-v3
 pdf: 
@@ -31,3 +31,4 @@ Expressible (E=2): `embedding_models: huggingface:nlpai-lab/KURE-v3`. Would need
 
 ## Status log
 - 2026-11-01 screened (HF model: no PDF, mteb link present)
+- 2026-11-02 fit-check (W45): rejected — Korean-only; no Korean dataset in RAG-NIMBF, not useful for German/English setup
