@@ -1,0 +1,2 @@
+week,from,to,collector_runs,skipped_runs,skip_rate,collected,screened,relevant,relevant_rate,proposed_week,proposed_total,accepted_total,acceptance_rate,llm_runs,prompt_tokens,completion_tokens,cost_usd
+2026-W44,2026-10-26,2026-11-01,4,1,0.25,34,113,45,0.398,2,2,0,0.0,9,7324357,114105,1.16
