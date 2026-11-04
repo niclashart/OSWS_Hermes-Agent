@@ -15,3 +15,5 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[2610.40454]] — Glance: The Generator Is Its Own Reranker (8)
 - [[2610.38090]] — Predicting What Answer Engines Cite: Open Decision Models, Rerankers and a Distilled 4B St (8)
 - [[hf-nvidia_Nemotron-3.5-Rerank-8B-BF16]] — 8B multilingual+multimodal reranker, SOTA ViDoRe v3.1 (8)
+- [[arxiv-2611.03179]] — DMReranker: zero-shot reranker that splits an instructed query into typed clauses answered by a… (8)
+- [[arxiv-2611.02550]] — Listwise reranker where a generator writes a reasoning trace and a scorer reads relevance from… (9)

@@ -34,3 +34,7 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[2610.38366]] — TCC-RAG: Temporal Causal Chain-Guided RAG for Temporal Knowledge Graph Question Answering (7)
 - [[hf-caveman-so_trim-1]] — 1.2 MB GBDT context compressor: keeps only query-relevant lines verbatim (8)
 - [[arxiv-2610.41172]] — Knowledge compilation / claim-evidence trees: −38% query tokens, latency 140s→30s, no accuracy gain (7)
+- [[arxiv-2611.02810]] — Agentic RAG with three trained agents (query extension, unanimity judge, answer agent) aligned by… (7)
+- [[arxiv-2611.02766]] — Extractive prompt compression for RAG QA: a BERT-style reranker and sentence selector, trained with… (8)
+- [[arxiv-2611.01910]] — Adaptive multi-hop retrieval over an implicit semantic graph in a plain VectorDB: an LLM assesses… (7)
+- [[arxiv-2611.00450]] — ResMem: distills retrieved evidence offline into a parametric memory that predicts an additive… (8)
