@@ -27,3 +27,7 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[2610.37962]] — Statistical Detection of Positional Bias in LLM-Based Recommender Systems: Methodologies a (7)
 - [[arxiv-2610.40966]] — Gold-presence abstention shortcut: precision .68→.10 with stronger retrievers, AUROC up to .19 too low (9)
 - [[arxiv-2610.40742]] — Aligned RAG Evaluation: matched clean/poisoned protocol exposes defense-introduced failures hidden by ASR (8)
+- [[arxiv-2611.04343]] — Timeline-constrained retrieval: dense retrievers and rerankers barely beat lexical retrieval when… (7)
+- [[arxiv-2611.02587]] — Bilingual benchmark (EN/AR) probing five open-weight LLMs on exact Hadith recall without retrieval:… (8)
+- [[arxiv-2611.02387]] — Forecasts end-to-end net utility of RAG configurations before deployment by calibrating a… (8)
+- [[arxiv-2611.01409]] — Shows retrieved diagnostic criteria in RAG-generated ECG reports often lack patient-specific… (7)
