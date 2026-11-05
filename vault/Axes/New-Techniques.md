@@ -6,6 +6,8 @@ tags: [rag-radar, axis]
 Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 
 ## Papers
+- [[arxiv-2611.06481]] — ArcRAG: query-local graph interface induction, construction-agnostic graph retrieval (8)
+- [[arxiv-2611.05900]] — Weaver: memory-graph incremental retrieval for personalized RAG (7)
 - [[2610.29933]] — ThreadRAG: semantic-topology graph + energy-driven pathfinding, +14.4% EM HotpotQA (8)
 - [[2610.29792]] — MAPS: parallel reasoning regulates search momentum in agentic RAG (8)
 - [[2610.27114]] — JCA: answer selection against question-derived requirements (7)
