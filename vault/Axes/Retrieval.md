@@ -6,6 +6,7 @@ tags: [rag-radar, axis]
 Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 
 ## Papers
+- [[arxiv-2611.05596]] — RAGCompass: query-adaptive retriever routing via passage-set reranking, +28% rel. F1 (8)
 - [[2610.28957]] — Scan vs index in long-doc RAG: coverage ≠ answer quality (8)
 - [[2610.26339]] — Biomedical RAG corpus scaling + hierarchical representation (7)
 - [[2610.25678]] — Cross-pollination retrieval: existing retrievers fail cross-field (7)

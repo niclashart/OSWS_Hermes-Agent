@@ -6,6 +6,7 @@ tags: [rag-radar, axis]
 Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 
 ## Papers
+- [[arxiv-2611.06715]] — Rel-Bloom: evidence-conditioned relational reasoning benchmark, 5 Bloom levels × 3 veracity conditions (8)
 - [[2610.28340]] — DeclineCraft abstention dataset (8)
 - [[2610.25678]] — CPR-eval: 1,300 cross-field queries (7)
 - [[2610.25575]] — Perovskite quantitative RAG benchmark, 755 verified answers (8)
