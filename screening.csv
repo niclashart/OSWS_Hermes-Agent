@@ -248,3 +248,5 @@ date,id,source,title,score,A,B,C,D,E,decision,reason
 2026-11-05,gh-langchain-ai_langchain-langchain==1.4.9,github-release,"langchain-ai/langchain langchain==1.4.9",0,0,0,0,0,0,logged,"release: no new capability"
 2026-11-05,gh-langchain-ai_langchain-langchain-openai==1.7.4,github-release,"langchain-ai/langchain langchain-openai==1.7.4",0,0,0,0,0,0,logged,"release: no new capability"
 2026-11-05,gh-langchain-ai_langchain-langchain-fireworks==1.7.2,github-release,"langchain-ai/langchain langchain-fireworks==1.7.2",0,0,0,0,0,0,logged,"release: reranking out of beta is provider plumbing, no new RAG-NIMBF capability"
+2026-11-06,gh-langchain-ai_langchain-langchain-typesafe==0.0.2,github-release,"langchain-ai/langchain langchain-typesafe==0.0.2",0,0,0,0,0,0,logged,release: no new capability — experimental middleware classifier, no RAG-NIMBF axis value
+2026-11-06,gh-ollama_ollama-v0.40.15,github-release,"ollama/ollama v0.40.15",0,0,0,2,2,0,logged,release: no new capability — new LLMs (MiMo/AutoTrust) not embedder/reranker axis values
