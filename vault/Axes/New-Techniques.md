@@ -40,3 +40,6 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2611.02766]] — Extractive prompt compression for RAG QA: a BERT-style reranker and sentence selector, trained with… (8)
 - [[arxiv-2611.01910]] — Adaptive multi-hop retrieval over an implicit semantic graph in a plain VectorDB: an LLM assesses… (7)
 - [[arxiv-2611.00450]] — ResMem: distills retrieved evidence offline into a parametric memory that predicts an additive… (8)
+- [[arxiv-2611.07859]] — CORE: coarse-to-fine search + context management for deep-research agents (8)
+- [[arxiv-2611.07928]] — ZeroRAG: decentralized semantic peer routing for RAG, no global index (7)
+- [[arxiv-2611.07631]] — MEMOIR: training-free agent-memory lifecycle, judge-gated merge + attribution feedback (8)

@@ -31,3 +31,5 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2611.02587]] — Bilingual benchmark (EN/AR) probing five open-weight LLMs on exact Hadith recall without retrieval:… (8)
 - [[arxiv-2611.02387]] — Forecasts end-to-end net utility of RAG configurations before deployment by calibrating a… (8)
 - [[arxiv-2611.01409]] — Shows retrieved diagnostic criteria in RAG-generated ECG reports often lack patient-specific… (7)
+- [[arxiv-2611.02258]] — Type-aware hallucination detection: subtype metrics beyond binary accuracy, PHANTOM (8)
+- [[arxiv-2611.03725]] — RAGLog: reference-free stage-level fault localization from pipeline logs, F1 0.73 (9)
