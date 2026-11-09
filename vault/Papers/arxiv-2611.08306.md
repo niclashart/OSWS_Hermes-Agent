@@ -6,7 +6,7 @@ year: 2026
 score: 7
 rubric: {A: 1, B: 2, C: 2, D: 2, E: 0}
 axis: [Vector-Store]
-status: screened
+status: rejected
 screened: 2026-11-07
 source: https://arxiv.org/abs/2611.08306
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.08306/paper.pdf
@@ -31,3 +31,4 @@ Not expressible as a config value — informational efficiency reference for the
 
 ## Status log
 - 2026-11-07 screened
+- 2026-11-09 fit check: rejected — ANN library internals, E=0 — covered by vector_db_backend swap, no pluggable-index slot planned

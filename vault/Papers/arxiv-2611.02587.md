@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 1, B: 2, C: 2, D: 2, E: 1}
 axis: [Evaluation]
-status: screened
+status: rejected
 screened: 2026-11-04
 source: https://arxiv.org/abs/2611.02587
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.02587/paper.pdf
@@ -31,3 +31,4 @@ Candidate for the **Evaluation** axis at the weekly fit check.
 
 ## Status log
 - 2026-11-04 screened
+- 2026-11-09 fit check: rejected — Hadith recall benchmark — domain benchmark, not RAG-pipeline relevant

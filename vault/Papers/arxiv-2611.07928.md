@@ -6,7 +6,7 @@ year: 2026
 score: 7
 rubric: {A: 2, B: 2, C: 1, D: 1, E: 0}
 axis: [New-Techniques]
-status: screened
+status: rejected
 screened: 2026-11-07
 source: https://arxiv.org/abs/2611.07928
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.07928/paper.pdf
@@ -31,3 +31,4 @@ Not expressible — would need a peer-network retrieval adapter; candidate for `
 
 ## Status log
 - 2026-11-07 screened
+- 2026-11-09 fit check: rejected — decentralized P2P RAG, E=0 — outside single-node benchmark scope

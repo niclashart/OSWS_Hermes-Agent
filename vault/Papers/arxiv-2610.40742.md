@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 2, C: 2, D: 1, E: 1}
 axis: [Evaluation]
-status: screened
+status: rejected
 screened: 2026-11-02
 source: https://arxiv.org/abs/2610.40742
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2610.40742/paper.pdf
@@ -31,3 +31,4 @@ Evaluation axis: would need poisoned-corpus arms + clean-utility arms + endorsem
 
 ## Status log
 - 2026-11-02 screened
+- 2026-11-09 fit check: rejected — security/attack evaluation framework — orthogonal to config axes, benchmark-internal interest only

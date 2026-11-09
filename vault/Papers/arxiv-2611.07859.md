@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 2, C: 1, D: 2, E: 1}
 axis: [New-Techniques]
-status: screened
+status: rejected
 screened: 2026-11-07
 source: https://arxiv.org/abs/2611.07859
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.07859/paper.pdf
@@ -31,3 +31,4 @@ Needs new axes/components: snippet selection, context expansion, cross-search de
 
 ## Status log
 - 2026-11-07 screened
+- 2026-11-09 fit check: rejected — deep-research harness — agent-loop system, E=0, outside axis scope

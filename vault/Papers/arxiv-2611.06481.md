@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 2, C: 1, D: 1, E: 0}
 axis: [New-Techniques]
-status: screened
+status: rejected
 screened: 2026-11-05
 source: https://arxiv.org/abs/2611.06481
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.06481/paper.pdf
@@ -31,3 +31,4 @@ Graph RAG remains in the not-expressible list; candidate for a future graph-retr
 
 ## Status log
 - 2026-11-05 screened
+- 2026-11-09 fit check: rejected — agentic KG retrieval, E=0 — knowledge-graph retrieval not on RAG-NIMBF roadmap

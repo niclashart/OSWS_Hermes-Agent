@@ -6,7 +6,7 @@ year: 2026
 score: 7
 rubric: {A: 1, B: 2, C: 2, D: 2, E: 2}
 axis: [Embedding]
-status: screened
+status: proposed
 screened: 2026-11-09
 source: https://huggingface.co/Yaldat/Yalda-Embedding
 summary: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/hf-Yaldat_Yalda-Embedding/summary.md
@@ -30,3 +30,4 @@ Ready-to-use slot value: `embedding_models: huggingface:Yaldat/Yalda-Embedding` 
 
 ## Status log
 - 2026-11-09 screened
+- 2026-11-09 fit check: expressible (E=2) — proposal config.yaml on proposal/2026-W46

@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 2, C: 1, D: 1, E: 1}
 axis: [Retrieval]
-status: screened
+status: fit
 screened: 2026-11-09
 source: https://arxiv.org/abs/2611.09040
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.09040/paper.pdf
@@ -31,3 +31,4 @@ Not expressible today: multi-vector retrieval would need a new `retrieval_strate
 
 ## Status log
 - 2026-11-09 screened
+- 2026-11-09 fit check: not expressible — new-axis.md on proposal/2026-W46
