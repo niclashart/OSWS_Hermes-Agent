@@ -33,3 +33,4 @@ Evaluation axis: refusal/abstention metrics must use content sufficiency labels,
 ## Status log
 - 2026-11-02 screened
 - 2026-11-02 fit-check (W45): not expressible (abstention labels need content sufficiency, not gold-doc presence) → proposals/arxiv-2610.40966/new-axis.md; status fit
+- 2026-11-11 impl-check: see implementations/2026-W46/arxiv-2610.40966.md

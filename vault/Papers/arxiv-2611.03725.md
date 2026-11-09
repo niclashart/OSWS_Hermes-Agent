@@ -32,3 +32,4 @@ Not expressible as pure config: needs a fault-localization evaluation component 
 ## Status log
 - 2026-11-07 screened
 - 2026-11-09 fit check: not expressible — new-axis.md on proposal/2026-W46
+- 2026-11-11 impl-check: see implementations/2026-W46/arxiv-2611.03725.md
