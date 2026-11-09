@@ -43,3 +43,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2611.07859]] — CORE: coarse-to-fine search + context management for deep-research agents (8)
 - [[arxiv-2611.07928]] — ZeroRAG: decentralized semantic peer routing for RAG, no global index (7)
 - [[arxiv-2611.07631]] — MEMOIR: training-free agent-memory lifecycle, judge-gated merge + attribution feedback (8)
+- [[arxiv-2611.09807]] — Two-tier conversational memory compaction beats transcript RAG by 6.8 pts at 34% fewer tokens on LoCoMo (8)
