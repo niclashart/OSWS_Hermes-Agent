@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 2, C: 2, D: 2, E: 0}
 axis: [Datasets, Evaluation]
-status: screened
+status: rejected
 screened: 2026-11-05
 source: https://arxiv.org/abs/2611.06715
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.06715/paper.pdf
@@ -32,3 +32,4 @@ Candidate `hf-generic`-style dataset adapter with cognitive-level and veracity f
 
 ## Status log
 - 2026-11-05 screened
+- 2026-11-09 fit check: rejected — multilingual relational-knowledge eval, E=0 — cognitive study, no pipeline component

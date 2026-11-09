@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 2, C: 0, D: 0, E: 1}
 axis: [RAG-System]
-status: screened
+status: rejected
 screened: 2026-11-09
 source: https://arxiv.org/abs/2611.08935
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.08935/paper.pdf
@@ -31,3 +31,4 @@ Graph RAG → [[New-Techniques]]; nearest existing mechanism is the MCP agentic 
 
 ## Status log
 - 2026-11-09 screened
+- 2026-11-09 fit check: rejected — dermatology graph-probing RAG, CC BY-NC-ND + no code — license blocks reuse, domain-specific

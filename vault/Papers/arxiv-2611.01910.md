@@ -6,7 +6,7 @@ year: 2026
 score: 7
 rubric: {A: 2, B: 2, C: 1, D: 2, E: 0}
 axis: [New-Techniques]
-status: screened
+status: rejected
 screened: 2026-11-04
 source: https://arxiv.org/abs/2611.01910
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.01910/paper.pdf
@@ -31,3 +31,4 @@ New technique — not expressible today; candidate for new-axis.md at weekly fit
 
 ## Status log
 - 2026-11-04 screened
+- 2026-11-09 fit check: rejected — implicit graph over VectorDB, E=0 — graph retrieval explicitly not expressible and not planned

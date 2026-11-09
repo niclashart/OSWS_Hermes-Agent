@@ -6,7 +6,7 @@ year: 2026
 score: 7
 rubric: {A: 2, B: 2, C: 1, D: 2, E: 0}
 axis: [New-Techniques]
-status: screened
+status: rejected
 screened: 2026-11-05
 source: https://arxiv.org/abs/2611.05900
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.05900/paper.pdf
@@ -31,3 +31,4 @@ Personalization and memory-graph reasoning are beyond multi-hop follow-ups; woul
 
 ## Status log
 - 2026-11-05 screened
+- 2026-11-09 fit check: rejected — personalized retrieval, E=0 — technique needs memory-graph infrastructure outside benchmark scope

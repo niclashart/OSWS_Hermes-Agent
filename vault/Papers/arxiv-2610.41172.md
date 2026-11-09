@@ -6,7 +6,7 @@ year: 2026
 score: 7
 rubric: {A: 2, B: 2, C: 2, D: 1, E: 0}
 axis: [New-Techniques]
-status: screened
+status: rejected
 screened: 2026-11-02
 source: https://arxiv.org/abs/2610.41172
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2610.41172/paper.pdf
@@ -32,3 +32,4 @@ Needs new axis: ingestion-side compilation artifacts + agent context budget / de
 
 ## Status log
 - 2026-11-02 screened
+- 2026-11-09 fit check: rejected — agentic harness with BM25/grep — E=0, system-level harness not a benchmark axis

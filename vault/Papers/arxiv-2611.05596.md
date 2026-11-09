@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 2, C: 1, D: 2, E: 1}
 axis: [Retrieval]
-status: screened
+status: fit
 screened: 2026-11-05
 source: https://arxiv.org/abs/2611.05596
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.05596/paper.pdf
@@ -31,3 +31,4 @@ Not expressible today (no per-query retriever selection); candidate new key like
 
 ## Status log
 - 2026-11-05 screened
+- 2026-11-09 fit check: not expressible — new-axis.md on proposal/2026-W46

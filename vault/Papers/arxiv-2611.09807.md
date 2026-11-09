@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 2, C: 2, D: 1, E: 1}
 axis: [New-Techniques]
-status: screened
+status: fit
 screened: 2026-11-09
 source: https://arxiv.org/abs/2611.09807
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.09807/paper.pdf
@@ -31,3 +31,4 @@ Not expressible: needs a memory/compaction component (new axis candidate).
 
 ## Status log
 - 2026-11-09 screened
+- 2026-11-09 fit check: not expressible — new-axis.md on proposal/2026-W46
