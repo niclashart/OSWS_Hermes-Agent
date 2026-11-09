@@ -32,3 +32,4 @@ A 2 · B 2 · C 2 · D 1 · E 2 — new dataset/benchmark for the Datasets axis,
 ## Status log
 - 2026-11-02 screened
 - 2026-11-02 fit-check (W45): expressible (Datasets axis) → proposals/arxiv-2610.41396/config.yaml (reranker arm, nDCG@10 gold_doc); status proposed
+- 2026-11-11 impl-check: see implementations/2026-W46/arxiv-2610.41396.md
