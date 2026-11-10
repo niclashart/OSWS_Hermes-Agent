@@ -272,3 +272,7 @@ date,id,source,title,score,A,B,C,D,E,decision,reason
 2026-11-09,arxiv-2611.08935,arxiv,"SkinMind: Equipping Agentic RAG with Human-Inspired Graph Probing for Reliable Dermatology AI",8,2,2,0,0,1,relevant,"A=2: agentic graph probing (new axis); C=0 no code, CC BY-NC-ND" 
 2026-11-09,arxiv-2611.08566,arxiv,"CascadeRec: Deployed Adaptive LLM Compute Allocation for Multi-Tenant Content Recommendation",3,1,1,1,1,0,logged,"A=1: LLM reranking cascade for content recommendation, no public tenant data; marginal axis fit" 
 2026-11-09,hf-Yaldat_Yalda-Embedding,hf-model:embedder,"Yaldat/Yalda-Embedding (new embedder, 596M params, apache-2.0)",7,1,2,2,2,2,relevant,"A=1 domain fine-tune (Persian, non-German): B=2 FaMTEB vs base; C=2 apache-2.0; D=2 0.6B; E=2 sentence-transformers" 
+2026-11-10,gh-langchain-ai_langchain-langchain-core==1.7.7,github-release,langchain-ai/langchain langchain-core==1.7.7,0,0,0,1,1,0,logged,release: no new capability
+2026-11-10,gh-langchain-ai_langchain-langchain-fireworks==1.7.3,github-release,langchain-ai/langchain langchain-fireworks==1.7.3,0,0,0,1,1,0,logged,release: no new capability
+2026-11-10,gh-ollama_ollama-v0.40.16,github-release,ollama/ollama v0.40.16,0,0,0,1,2,0,logged,release: no new capability
+2026-11-10,hf-hindsight-ai_hs-decide-1-flash,hf-model:reranker,"hindsight-ai/hs-decide-1-flash (decision model, 0.8B params, apache-2.0)",6,1,1,2,2,1,logged,"A=1 agent-memory decision model, no MTEB/BEIR vs standard rerankers; E=1 vLLM plugin, not CrossEncoder-loadable"
