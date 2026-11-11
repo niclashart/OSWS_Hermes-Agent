@@ -17,3 +17,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[hf-nvidia_Nemotron-3.5-Rerank-8B-BF16]] — 8B multilingual+multimodal reranker, SOTA ViDoRe v3.1 (8)
 - [[arxiv-2611.03179]] — DMReranker: zero-shot reranker that splits an instructed query into typed clauses answered by a… (8)
 - [[arxiv-2611.02550]] — Listwise reranker where a generator writes a reasoning trace and a scorer reads relevance from… (9)
+- [[arxiv-2611.10405]] — Yuanbao-Reranker: Qwen3 reranker family, 0.6B beats 8B teachers on 5 reranking panels (9)
