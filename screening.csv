@@ -301,3 +301,8 @@ date,id,source,title,score,A,B,C,D,E,decision,reason
 2026-11-11,arxiv-2611.12918,arxiv,"IntentTwin: Deconfounding Candidate Support and the Oracle-to-Deployment Gap in Offline Web Behavior Prediction",1,1,1,1,1,0,logged,A=0: web behavior prediction, unrelated
 2026-11-11,arxiv-2611.10715,s2-citer:ARES,"From User Behaviors to Satisfaction Judgments: Reasoning about User Satisfaction with AI Overviews",2,1,1,1,1,0,logged,A=1: satisfaction prediction, marginal
 2026-11-11,gh-langchain-ai_langchain-langchain==1.4.10,github-release,"langchain-ai/langchain langchain==1.4.10",0,0,2,2,0,0,logged,release: no new capability
+2026-11-12,gh-langchain-ai_langchain-langchain==1.5.0,github-release,"langchain-ai/langchain langchain==1.5.0",0,0,2,2,0,0,logged,release: no new capability (Python 3.11 floor, model-router middleware not a NIMBF axis)
+2026-11-12,gh-langchain-ai_langchain-langchain-typesafe==0.1.0,github-release,"langchain-ai/langchain langchain-typesafe==0.1.0",0,0,2,2,0,0,logged,release: no new capability (TypeSafeClassifier not a RAG pipeline component)
+2026-11-12,gh-langchain-ai_langchain-langchain-core==1.8.0,github-release,"langchain-ai/langchain langchain-core==1.8.0",0,0,2,2,0,0,logged,release: no new capability (decision models not a NIMBF axis value)
+2026-11-12,gh-UKPLab_sentence-transformers-v6.3.0,github-release,"UKPLab/sentence-transformers v6.3.0",2,1,2,2,0,1,logged,release: no new axis value — multi-vector token-pooling training targets late-interaction models, not expressible in NIMBF (rerankers = cross-encoder only)
+
