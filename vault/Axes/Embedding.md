@@ -14,3 +14,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[hf-VAGOsolutions_SauerkrautLM-MoEdernColBERT-115M]] — 115M MoE ColBERT, MKQA de→en 0.731, LongEmbed 90.1 (8)
 - [[hf-nlpai-lab_KURE-v3]] — Korean dense retriever 1.1B, 0.8027 MTEB(kor) above 8B models (9)
 - [[hf-Yaldat_Yalda-Embedding]] — Persian fine-tune of Qwen3-Embedding-0.6B, FaMTEB mean 0.5488 vs 0.4713 base (7)
+- [[hf-opensearch-project_opensearch-neural-embed-v1]] — 598M distilled embedder, BEIR #1 <1B (58.37 NDCG@10) (10)

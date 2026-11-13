@@ -11,3 +11,5 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2610.37231]] — Catalog-anchored multi-candidate query reformulation for task-oriented product retrieval (7)
 - [[2610.37826]] — DeFT-RAG: Incrementally Decomposing Multi-Hop Questions into Self-Contained Sub-Questions  (7)
 - [[2610.40314]] — Decompose, Estimate, Select: Coverage-Aware Context Construction for Long-Form RAG (8)
+- [[arxiv-2611.16488]] — LAAM: active-learning approximation of LLM reranking at 3.3% energy (7)
+- [[arxiv-2611.15538]] — QDRAG: query decomposition for faithful multi-hop citations (7)

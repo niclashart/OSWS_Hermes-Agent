@@ -46,3 +46,5 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2611.09807]] — Two-tier conversational memory compaction beats transcript RAG by 6.8 pts at 34% fewer tokens on LoCoMo (8)
 - [[arxiv-2611.13675]] — OpticalRAG: compress retrieved docs in pixel space into 16 visual prefix tokens (9)
 - [[arxiv-2611.11010]] — Lightfoot: GraphRAG with exact model-free document deletion + index-cost benchmarks (8)
+- [[arxiv-2611.16366]] — CURATOR: joint evidence-span selection via decision models (7)
+- [[arxiv-2611.15467]] — AutoOntic: automatic ontology induction for graph RAG (8)
