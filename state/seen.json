@@ -322,6 +322,12 @@
 "arxiv-2611.13752",
 "arxiv-2611.13966",
 "arxiv-2611.14050",
+"arxiv-2611.15467",
+"arxiv-2611.15538",
+"arxiv-2611.16148",
+"arxiv-2611.16366",
+"arxiv-2611.16425",
+"arxiv-2611.16488",
 "gh-UKPLab_sentence-transformers-v5.7.0",
 "gh-UKPLab_sentence-transformers-v6.0.0",
 "gh-UKPLab_sentence-transformers-v6.0.1",
@@ -375,6 +381,7 @@
 "gh-ollama_ollama-v0.40.7",
 "gh-ollama_ollama-v0.40.8",
 "gh-ollama_ollama-v0.40.9",
+"hf-0neisall_tiny-embedding-test",
 "hf-Asteromorph_AsteroRank-Lepton",
 "hf-Contrastive-LM_CLM-v0.1-8B",
 "hf-DataScience-UIBK_uibk-embedding-v1",
@@ -388,5 +395,6 @@
 "hf-hindsight-ai_hs-decide-1-flash",
 "hf-nlpai-lab_KURE-Reranker-nano",
 "hf-nlpai-lab_KURE-v3",
-"hf-nvidia_Nemotron-3.5-Rerank-8B-BF16"
+"hf-nvidia_Nemotron-3.5-Rerank-8B-BF16",
+"hf-opensearch-project_opensearch-neural-embed-v1"
 ]
