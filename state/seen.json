@@ -324,6 +324,8 @@
 "arxiv-2611.14050",
 "arxiv-2611.15467",
 "arxiv-2611.15538",
+"arxiv-2611.15655",
+"arxiv-2611.15700",
 "arxiv-2611.16148",
 "arxiv-2611.16366",
 "arxiv-2611.16425",
@@ -342,6 +344,7 @@
 "gh-explodinggradients_ragas-v0.4.1",
 "gh-explodinggradients_ragas-v0.4.2",
 "gh-explodinggradients_ragas-v0.4.3",
+"gh-explodinggradients_ragas-v0.4.4",
 "gh-lancedb_lancedb-v0.41.0",
 "gh-langchain-ai_langchain-langchain-anthropic==1.7.7",
 "gh-langchain-ai_langchain-langchain-anthropic==1.7.8",
@@ -360,6 +363,7 @@
 "gh-langchain-ai_langchain-langchain-fireworks==1.7.3",
 "gh-langchain-ai_langchain-langchain-openai==1.7.3",
 "gh-langchain-ai_langchain-langchain-openai==1.7.4",
+"gh-langchain-ai_langchain-langchain-openai==1.8.0",
 "gh-langchain-ai_langchain-langchain-perplexity==1.4.2",
 "gh-langchain-ai_langchain-langchain-typesafe==0.0.1",
 "gh-langchain-ai_langchain-langchain-typesafe==0.0.2",
@@ -396,5 +400,6 @@
 "hf-nlpai-lab_KURE-Reranker-nano",
 "hf-nlpai-lab_KURE-v3",
 "hf-nvidia_Nemotron-3.5-Rerank-8B-BF16",
-"hf-opensearch-project_opensearch-neural-embed-v1"
+"hf-opensearch-project_opensearch-neural-embed-v1",
+"hf-tomaarsen_TinyCLIP-39M-PixelArt"
 ]
