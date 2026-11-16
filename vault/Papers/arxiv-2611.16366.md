@@ -6,7 +6,7 @@ year: 2026
 score: 7
 rubric: {A: 2, B: 2, C: 1, D: 1, E: 1}
 axis: [New-Techniques]
-status: screened
+status: fit
 screened: 2026-11-13
 source: https://arxiv.org/abs/2611.16366
 pdf: 
@@ -31,3 +31,4 @@ See summary.md.
 
 ## Status log
 - 2026-11-13 screened
+- 2026-11-16 fit: not expressible -> proposals/arxiv-2611.16366/new-axis.md

@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 2, C: 2, D: 1, E: 1}
 axis: [New-Techniques]
-status: screened
+status: fit
 screened: 2026-11-11
 source: https://arxiv.org/abs/2611.11010
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.11010/paper.pdf
@@ -31,3 +31,4 @@ Graph RAG and lifecycle metrics not expressible today → New-Techniques.
 
 ## Status log
 - 2026-11-11 screened
+- 2026-11-16 fit: not expressible -> proposals/arxiv-2611.11010/new-axis.md
