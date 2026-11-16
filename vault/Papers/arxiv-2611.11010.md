@@ -32,3 +32,4 @@ Graph RAG and lifecycle metrics not expressible today → New-Techniques.
 ## Status log
 - 2026-11-11 screened
 - 2026-11-16 fit: not expressible -> proposals/arxiv-2611.11010/new-axis.md
+- 2026-11-16 impl-check: NIMBF missing (deletion-invariant + index-cost metrics), Blueprint partial -> impl proposal (both)

@@ -32,3 +32,4 @@ See summary.md.
 ## Status log
 - 2026-11-13 screened
 - 2026-11-16 fit: not expressible -> proposals/arxiv-2611.15467/new-axis.md
+- 2026-11-16 impl-check: NIMBF missing (graph RAG = new axis, too large), Blueprint not-applicable -> existence check only
