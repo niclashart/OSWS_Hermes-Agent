@@ -32,3 +32,4 @@ Ready-to-use slot: `embedding_models: huggingface:opensearch-project/opensearch-
 ## Status log
 - 2026-11-13 screened (HF model: no PDF, mteb link present)
 - 2026-11-16 fit: expressible -> proposals/hf-opensearch-project_opensearch-neural-embed-v1/config.yaml (Embedding, one-axis vs Qwen3-Embedding-0.6B)
+- 2026-11-16 impl-check: NIMBF exists (embedding_models slot), Blueprint partial (hard-coded nomic-embed-text, no env)

@@ -32,3 +32,4 @@ Context compression / selection under token budget is not expressible today → 
 ## Status log
 - 2026-11-11 screened
 - 2026-11-16 fit: not expressible -> proposals/arxiv-2611.13675/new-axis.md
+- 2026-11-16 impl-check: NIMBF missing (new compression axis), Blueprint not-applicable -> impl proposal (NIMBF only)
