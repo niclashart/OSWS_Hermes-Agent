@@ -15,3 +15,5 @@
 {"ts": "2026-11-12T06:00:59Z", "new": 4, "pending": 4, "woke": true}
 {"ts": "2026-11-13T06:01:09Z", "new": 8, "pending": 8, "woke": true}
 {"ts": "2026-11-14T06:00:56Z", "new": 5, "pending": 5, "woke": true}
+{"ts": "2026-11-15T06:00:38Z", "new": 0, "pending": 0, "woke": false}
+{"ts": "2026-11-16T06:02:48Z", "new": 6, "pending": 6, "woke": true}
