@@ -6,7 +6,7 @@ year: 2026
 score: 10
 rubric: {A: 2, B: 2, C: 2, D: 2, E: 2}
 axis: [Embedding]
-status: screened
+status: proposed
 screened: 2026-11-13
 source: https://huggingface.co/opensearch-project/opensearch-neural-embed-v1
 pdf:
@@ -31,3 +31,4 @@ Ready-to-use slot: `embedding_models: huggingface:opensearch-project/opensearch-
 
 ## Status log
 - 2026-11-13 screened (HF model: no PDF, mteb link present)
+- 2026-11-16 fit: expressible -> proposals/hf-opensearch-project_opensearch-neural-embed-v1/config.yaml (Embedding, one-axis vs Qwen3-Embedding-0.6B)

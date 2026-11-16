@@ -6,7 +6,7 @@ year: 2026
 score: 9
 rubric: {A: 2, B: 2, C: 1, D: 2, E: 2}
 axis: [Reranking]
-status: screened
+status: fit
 screened: 2026-11-11
 source: https://arxiv.org/abs/2611.10405
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.10405/paper.pdf
@@ -31,3 +31,4 @@ Candidate `reranker_models: huggingface:tencent/Yuanbao-Reranker-0.6B` (verify s
 
 ## Status log
 - 2026-11-11 screened
+- 2026-11-16 fit: not expressible -> proposals/arxiv-2611.10405/new-axis.md

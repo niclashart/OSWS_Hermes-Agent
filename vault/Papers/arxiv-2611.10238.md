@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 2, C: 2, D: 1, E: 1}
 axis: [Evaluation, Datasets]
-status: screened
+status: fit
 screened: 2026-11-11
 source: https://arxiv.org/abs/2611.10238
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.10238/paper.pdf
@@ -31,3 +31,4 @@ Candidate `hf-generic` dataset; token-budget selection protocol itself → New-T
 
 ## Status log
 - 2026-11-11 screened
+- 2026-11-16 fit: not expressible -> proposals/arxiv-2611.10238/new-axis.md

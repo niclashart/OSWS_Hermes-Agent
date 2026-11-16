@@ -6,7 +6,7 @@ year: 2026
 score: 9
 rubric: {A: 2, B: 2, C: 2, D: 1, E: 2}
 axis: [New-Techniques]
-status: screened
+status: fit
 screened: 2026-11-11
 source: https://arxiv.org/abs/2611.13675
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.13675/paper.pdf
@@ -31,3 +31,4 @@ Context compression / selection under token budget is not expressible today → 
 
 ## Status log
 - 2026-11-11 screened
+- 2026-11-16 fit: not expressible -> proposals/arxiv-2611.13675/new-axis.md
