@@ -348,3 +348,7 @@ date,id,source,title,score,A,B,C,D,E,decision,reason
 2026-11-16,gh-langchain-ai_langchain-langchain-groq==1.2.0,github-release,"langchain-ai/langchain langchain-groq==1.2.0",0,0,0,0,0,0,logged,"release: no new capability (gateway routing, performance tier, dep bumps)"
 2026-11-16,gh-langchain-ai_langchain-langchain-deepseek==1.2.0,github-release,"langchain-ai/langchain langchain-deepseek==1.2.0",0,0,0,0,0,0,logged,"release: no new capability (gateway routing, dep bumps)"
 2026-11-16,gh-langchain-ai_langchain-langchain-core==1.8.1,github-release,"langchain-ai/langchain langchain-core==1.8.1",0,0,0,0,0,0,logged,"release: no new capability (langsmith_gateway override, dep bumps)"
+2026-11-18,arxiv-2611.20012,arxiv,"Offline-First Quantized AI: Design and Evaluation of an On-Device Maternal-Health Assistant for Low-Connectivity Environments",6,1,2,1,2,1,logged,A=1: on-device RAG application study, no new RAG technique
+2026-11-18,gh-langchain-ai_langchain-langchain-openai==1.8.1,github-release,"langchain-ai/langchain langchain-openai==1.8.1",0,0,0,0,0,0,logged,release: no new capability (bugfix)
+2026-11-18,gh-langchain-ai_langchain-langchain-core==1.8.2,github-release,"langchain-ai/langchain langchain-core==1.8.2",0,0,0,0,0,0,logged,release: no new capability (internal fixes)
+2026-11-18,hf-f4roukb_denserepr-code-48M-pretrain-EN-v1,hf-model:embedder,"f4roukb/denserepr-code-48M-pretrain-EN-v1 (new embedder, 48M params, apache-2.0)",10,2,2,2,2,2,relevant,E=2: SentenceTransformer-loadable, best dense on MTEB CoIR at 48M
