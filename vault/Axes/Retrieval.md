@@ -13,3 +13,5 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[2610.25575]] — Text vs SQL structured retrieval benchmark (8)
 - [[arxiv-2610.37358]] — Cost-aware routing between dense+rerank baseline and hybrid lexical-dense retrieval (7)
 - [[arxiv-2611.09040]] — MV-IVF: native IVF index over multi-vector point clouds, 8x latency / 173x QPS at 90% Recall@10 (8)
+
+- [[arxiv-2611.22425]] — Learned multigranular memory retrieval selects source + read length under a token budget (7)
