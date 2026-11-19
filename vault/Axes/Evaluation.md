@@ -35,3 +35,7 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2611.03725]] — RAGLog: reference-free stage-level fault localization from pipeline logs, F1 0.73 (9)
 - [[arxiv-2611.10335]] — Conformal Evidence Sets: two-sided support/refute sets with coverage guarantees (7)
 - [[arxiv-2611.10238]] — CoRA-Bench: evidence preservation by context selectors under token budgets (8)
+
+- [[arxiv-2611.22353]] — Non-semantic strings outrank relevant passages in dense retrievers (semanticity gap probe) (8)
+- [[arxiv-2611.19900]] — Claim-level attribution/abstention benchmark on sparse African business web (8)
+- [[arxiv-2611.23127]] — GIB-200K: how VLM-RAG weighs text vs image evidence; Grounding Illusion Score (8)

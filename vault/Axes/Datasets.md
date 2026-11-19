@@ -20,3 +20,6 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[2610.33849]] — Shows published query-time poisoning defenses score near-perfectly because poiso (7)
 - [[arxiv-2610.41396]] — ProSearch: multi-constraint protocol retrieval benchmark, best retriever nDCG@10 0.290→0.474 with reranking (9)
 - [[arxiv-2611.03196]] — Retrieval benchmark for Indian Knowledge Systems: 325 questions, 60k chunks, 7,578 relevance links,… (8)
+
+- [[arxiv-2611.21823]] — Persian legal RAG benchmark with citation grounding + graph retrieval (+8pp recall) (8)
+- [[arxiv-2611.22509]] — Multimodal intent-to-product retrieval benchmark with multi-category solutions (9)

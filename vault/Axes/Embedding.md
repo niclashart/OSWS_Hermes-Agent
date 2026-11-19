@@ -16,3 +16,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[hf-Yaldat_Yalda-Embedding]] — Persian fine-tune of Qwen3-Embedding-0.6B, FaMTEB mean 0.5488 vs 0.4713 base (7)
 - [[hf-opensearch-project_opensearch-neural-embed-v1]] — 598M distilled embedder, BEIR #1 <1B (58.37 NDCG@10) (10)
 - [[hf-f4roukb_denserepr-code-48M-pretrain-EN-v1]] — 48M code-retrieval embedder, 64.84 nDCG@10 CoIR, best dense (10)
+- [[arxiv-2611.19862]] — 43M-param biomedical embedder (RetroMAE pretraining) beats BERT-base bi-encoders (8)

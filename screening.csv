@@ -150,18 +150,30 @@ date,id,source,title,score,A,B,C,D,E,decision,reason
 2026-10-27,arxiv-2610.32110,arxiv,Who Verifies the Tools? How Warped Formatters Mislead Agents and Their Verifiers,5,2,2,1,1,1,logged,"A=2: agent/tooling reliability, but not a RAG pipeline technique for NIMBF"
 2026-10-27,arxiv-2610.31684,arxiv,Knowledge Graphs Quality Assessment in the Era of LLMs: A Conceptual Framework,3,1,0,1,1,1,logged,"conceptual framework: A=1, B=0 no experiments"
 2026-10-27,gh-langchain-ai_langchain-langchain-openai==1.7.3,github-release,langchain-ai/langchain langchain-openai==1.7.3,0,0,0,0,0,0,logged,release: no new capability (dependency/chore bumps only)
-2026-10-28,arxiv-2610.37358,arxiv,"""When Is Additional Retrieval Worthwhile? A Cost-Aware Study of Evidence Gain and Answer Reliability in RAG""",7,2,1,1,2,1,relevant,A=2
-2026-10-28,arxiv-2610.37323,arxiv,"""UCVE: Graph Structured Retrieval for Compliance Validation""",7,2,2,1,1,1,relevant,A=2
-2026-10-28,arxiv-2610.37231,arxiv,"""TaskBridge: Technical Report for SIGIR 2026 eCommerce Challenge""",7,2,1,1,2,1,relevant,A=2
-2026-10-28,arxiv-2610.37080,arxiv,"""Tessera: Structure-Completed Evidence Units for Web Retrieval-Augmented Generation""",8,2,2,1,2,1,relevant,A=2
-2026-10-28,arxiv-2610.36991,arxiv,"""SpectRAG: Weighted Chunk Graphs for Token-Budgeted Context Selection in Multi-Hop Retrieval-Augmented Generation""",8,2,2,1,1,1,relevant,A=2
-2026-10-28,arxiv-2610.36557,arxiv,"""QESChunker: A Single Objective Unifies Overlapping and Non-Overlapping Chunking for RAG""",8,2,2,1,2,1,relevant,A=2
-2026-10-28,arxiv-2610.36169,arxiv,"""Don't Pick a Winner: Knowledge Conflicts Need a Prior, Not a Rule""",7,2,1,1,2,1,relevant,A=2
-2026-10-28,arxiv-2610.36561,arxiv,"""Governed Sovereign RAG for Public Administration""",0,1,0,0,0,0,logged,A=1: deployment report; E=0: governance/sovereignty architecture not decomposable into NIMBF axes
-2026-10-28,arxiv-2610.36794,arxiv,"""Select-TTT: Query-Conditioned Selective Fast Weight Updates""",0,1,0,0,0,0,logged,"A=1: test-time fast-weight training, not a RAG-pipeline technique; E=0: needs model-internal training loop"
-2026-10-28,gh-langchain-ai_langchain-langchain-openai==1.7.3,github-release,"""langchain-openai==1.7.3""",0,0,0,0,0,0,logged,release: no new capability
-2026-10-28,gh-langchain-ai_langchain-langchain-anthropic==1.7.7,github-release,"""langchain-anthropic==1.7.7""",0,0,0,0,0,0,logged,release: no new capability
-2026-10-28,gh-ollama_ollama-v0.40.12,github-release,"""ollama v0.40.12""",0,0,0,0,0,0,logged,"C=1: adds model families (LFM3, d1), no new RAG-pipeline axis"
+2026-10-28,arxiv-2610.37358,arxiv,"""When Is Additional Retrieval Worthwhile? A Cost-Aware Study of Evidence Gain and Answer Reliability in RAG""",7,2,1,1,2,1,relevant,"A=2
+"
+2026-10-28,arxiv-2610.37323,arxiv,"""UCVE: Graph Structured Retrieval for Compliance Validation""",7,2,2,1,1,1,relevant,"A=2
+"
+2026-10-28,arxiv-2610.37231,arxiv,"""TaskBridge: Technical Report for SIGIR 2026 eCommerce Challenge""",7,2,1,1,2,1,relevant,"A=2
+"
+2026-10-28,arxiv-2610.37080,arxiv,"""Tessera: Structure-Completed Evidence Units for Web Retrieval-Augmented Generation""",8,2,2,1,2,1,relevant,"A=2
+"
+2026-10-28,arxiv-2610.36991,arxiv,"""SpectRAG: Weighted Chunk Graphs for Token-Budgeted Context Selection in Multi-Hop Retrieval-Augmented Generation""",8,2,2,1,1,1,relevant,"A=2
+"
+2026-10-28,arxiv-2610.36557,arxiv,"""QESChunker: A Single Objective Unifies Overlapping and Non-Overlapping Chunking for RAG""",8,2,2,1,2,1,relevant,"A=2
+"
+2026-10-28,arxiv-2610.36169,arxiv,"""Don't Pick a Winner: Knowledge Conflicts Need a Prior, Not a Rule""",7,2,1,1,2,1,relevant,"A=2
+"
+2026-10-28,arxiv-2610.36561,arxiv,"""Governed Sovereign RAG for Public Administration""",0,1,0,0,0,0,logged,"A=1: deployment report; E=0: governance/sovereignty architecture not decomposable into NIMBF axes
+"
+2026-10-28,arxiv-2610.36794,arxiv,"""Select-TTT: Query-Conditioned Selective Fast Weight Updates""",0,1,0,0,0,0,logged,"""A=1: test-time fast-weight training"," not a RAG-pipeline technique; E=0: needs model-internal training loop""
+"
+2026-10-28,gh-langchain-ai_langchain-langchain-openai==1.7.3,github-release,"""langchain-openai==1.7.3""",0,0,0,0,0,0,logged,"release: no new capability
+"
+2026-10-28,gh-langchain-ai_langchain-langchain-anthropic==1.7.7,github-release,"""langchain-anthropic==1.7.7""",0,0,0,0,0,0,logged,"release: no new capability
+"
+2026-10-28,gh-ollama_ollama-v0.40.12,github-release,"""ollama v0.40.12""",0,0,0,0,0,0,logged,"""C=1: adds model families (LFM3", d1)," no new RAG-pipeline axis""
+"
 2026-10-29,arxiv-2610.36650,s2-citer:RAGAS,TACO-Graph: Automated Construction of Text-Atributed Graphs,8,2,2,2,2,1,relevant,A=2: graph-RAG construction search (new axis needed); E=1 requires graph component
 2026-10-29,arxiv-2610.35483,s2-citer:RAGAS,Visible Reasoning: User-Facing Decision Transparency for Generative AI Systems,2,1,1,0,1,1,logged,"A=1: UI transparency, no RAG pipeline axis; not a retrieval technique"
 2026-10-29,arxiv-2610.34875,s2-citer:RAGAS,"RubriX: A Fast, Fine-Tunable Non-Autoregressive Rubric Judge",4,2,2,1,1,1,logged,"A=2 touches Evaluation axis but E=1 needs custom metric component; judge-only, no RAG pipeline effect"
@@ -337,18 +349,44 @@ date,id,source,title,score,A,B,C,D,E,decision,reason
 2026-11-13,arxiv-2611.15467,arxiv,AutoOntic: Automatic Ontology Induction from Text for Knowledge Graph Construction,8,2,2,1,2,1,relevant,A=2: graph-RAG KG construction = new axis; code open on GitHub
 2026-11-13,hf-0neisall_tiny-embedding-test,hf-model:embedder,"0neisall/tiny-embedding-test (new embedder, 0M params, apache-2.0)",4,0,0,2,2,0,logged,"A=0: random init test model, no semantic quality"
 2026-11-13,hf-opensearch-project_opensearch-neural-embed-v1,hf-model:embedder,"opensearch-project/opensearch-neural-embed-v1 (new embedder, 596M params, apache-2.0)",10,2,2,2,2,2,relevant,"A=2: BEIR #1 <1B single-vector, beats bge-m3-class; E=2 sentence-transformers loadable"
-2026-11-14,arxiv-2611.15700,arxiv,AskALCF: A Self-Improving Agentic System for Intelligent HPC User Support,5,2,1,0,1,1,logged,"A=2: failure attribution + sufficiency test = new RAG-system technique; C=0: no code mentioned"
-2026-11-14,arxiv-2611.15655,arxiv,"Can Agents Relive Past Experiences? Diagnosing Event-Affect Decoupling in Affective-Episodic Retrospection",6,2,1,1,1,1,logged,"A=2: new eval benchmark for memory agents; B=1: one controlled dataset; C=1: anonymous code, license unclear"
-2026-11-14,gh-langchain-ai_langchain-langchain-openai==1.8.0,github-release,"langchain-ai/langchain langchain-openai==1.8.0",0,0,0,0,0,0,logged,"release: no new capability (Python 3.10 drop, Decisions API classifier)"
+2026-11-14,arxiv-2611.15700,arxiv,AskALCF: A Self-Improving Agentic System for Intelligent HPC User Support,5,2,1,0,1,1,logged,A=2: failure attribution + sufficiency test = new RAG-system technique; C=0: no code mentioned
+2026-11-14,arxiv-2611.15655,arxiv,Can Agents Relive Past Experiences? Diagnosing Event-Affect Decoupling in Affective-Episodic Retrospection,6,2,1,1,1,1,logged,"A=2: new eval benchmark for memory agents; B=1: one controlled dataset; C=1: anonymous code, license unclear"
+2026-11-14,gh-langchain-ai_langchain-langchain-openai==1.8.0,github-release,langchain-ai/langchain langchain-openai==1.8.0,0,0,0,0,0,0,logged,"release: no new capability (Python 3.10 drop, Decisions API classifier)"
 2026-11-14,gh-explodinggradients_ragas-v0.4.4,github-release,explodinggradients/ragas v0.4.4,0,0,0,0,0,0,logged,"release: no new capability (import/security fixes, model-compat fixes)"
 2026-11-14,hf-tomaarsen_TinyCLIP-39M-PixelArt,hf-model:embedder,"tomaarsen/TinyCLIP-39M-PixelArt (new embedder, 83M params, apache-2.0)",4,0,0,2,2,0,logged,"A=0: multimodal pixel-art CLIP, not a document/text retrieval embedder; no BEIR/MTEB baselines"
-2026-11-16,arxiv-2611.17788,arxiv,"RAG-FGO: Dynamic Optimization of Query-Rewriting Agents for Generative RAG",6,2,2,0,1,1,logged,"C=0: no code/repo released; offline black-box optimization of rewriting agents needs new component (E=1)"
-2026-11-16,gh-langchain-ai_langchain-langchain-xai==1.4.0,github-release,"langchain-ai/langchain langchain-xai==1.4.0",0,0,0,0,0,0,logged,"release: no new capability (LangSmith gateway routing, dep bumps)"
-2026-11-16,gh-langchain-ai_langchain-langchain-mistralai==1.2.0,github-release,"langchain-ai/langchain langchain-mistralai==1.2.0",0,0,0,0,0,0,logged,"release: no new capability (gateway routing, streaming fix, dep bumps)"
-2026-11-16,gh-langchain-ai_langchain-langchain-groq==1.2.0,github-release,"langchain-ai/langchain langchain-groq==1.2.0",0,0,0,0,0,0,logged,"release: no new capability (gateway routing, performance tier, dep bumps)"
-2026-11-16,gh-langchain-ai_langchain-langchain-deepseek==1.2.0,github-release,"langchain-ai/langchain langchain-deepseek==1.2.0",0,0,0,0,0,0,logged,"release: no new capability (gateway routing, dep bumps)"
-2026-11-16,gh-langchain-ai_langchain-langchain-core==1.8.1,github-release,"langchain-ai/langchain langchain-core==1.8.1",0,0,0,0,0,0,logged,"release: no new capability (langsmith_gateway override, dep bumps)"
-2026-11-18,arxiv-2611.20012,arxiv,"Offline-First Quantized AI: Design and Evaluation of an On-Device Maternal-Health Assistant for Low-Connectivity Environments",6,1,2,1,2,1,logged,A=1: on-device RAG application study, no new RAG technique
-2026-11-18,gh-langchain-ai_langchain-langchain-openai==1.8.1,github-release,"langchain-ai/langchain langchain-openai==1.8.1",0,0,0,0,0,0,logged,release: no new capability (bugfix)
-2026-11-18,gh-langchain-ai_langchain-langchain-core==1.8.2,github-release,"langchain-ai/langchain langchain-core==1.8.2",0,0,0,0,0,0,logged,release: no new capability (internal fixes)
+2026-11-16,arxiv-2611.17788,arxiv,RAG-FGO: Dynamic Optimization of Query-Rewriting Agents for Generative RAG,6,2,2,0,1,1,logged,C=0: no code/repo released; offline black-box optimization of rewriting agents needs new component (E=1)
+2026-11-16,gh-langchain-ai_langchain-langchain-xai==1.4.0,github-release,langchain-ai/langchain langchain-xai==1.4.0,0,0,0,0,0,0,logged,"release: no new capability (LangSmith gateway routing, dep bumps)"
+2026-11-16,gh-langchain-ai_langchain-langchain-mistralai==1.2.0,github-release,langchain-ai/langchain langchain-mistralai==1.2.0,0,0,0,0,0,0,logged,"release: no new capability (gateway routing, streaming fix, dep bumps)"
+2026-11-16,gh-langchain-ai_langchain-langchain-groq==1.2.0,github-release,langchain-ai/langchain langchain-groq==1.2.0,0,0,0,0,0,0,logged,"release: no new capability (gateway routing, performance tier, dep bumps)"
+2026-11-16,gh-langchain-ai_langchain-langchain-deepseek==1.2.0,github-release,langchain-ai/langchain langchain-deepseek==1.2.0,0,0,0,0,0,0,logged,"release: no new capability (gateway routing, dep bumps)"
+2026-11-16,gh-langchain-ai_langchain-langchain-core==1.8.1,github-release,langchain-ai/langchain langchain-core==1.8.1,0,0,0,0,0,0,logged,"release: no new capability (langsmith_gateway override, dep bumps)"
+2026-11-18,arxiv-2611.20012,arxiv,Offline-First Quantized AI: Design and Evaluation of an On-Device Maternal-Health Assistant for Low-Connectivity Environments,6,1,2,1,2,1,logged,A=1: on-device RAG application study, no new RAG technique
+2026-11-18,gh-langchain-ai_langchain-langchain-openai==1.8.1,github-release,langchain-ai/langchain langchain-openai==1.8.1,0,0,0,0,0,0,logged,release: no new capability (bugfix)
+2026-11-18,gh-langchain-ai_langchain-langchain-core==1.8.2,github-release,langchain-ai/langchain langchain-core==1.8.2,0,0,0,0,0,0,logged,release: no new capability (internal fixes)
 2026-11-18,hf-f4roukb_denserepr-code-48M-pretrain-EN-v1,hf-model:embedder,"f4roukb/denserepr-code-48M-pretrain-EN-v1 (new embedder, 48M params, apache-2.0)",10,2,2,2,2,2,relevant,E=2: SentenceTransformer-loadable, best dense on MTEB CoIR at 48M
+2026-11-19,arxiv-2611.24049,arxiv,"""A Hybrid RAG Framework for Deceptive Review Detection: Integrating RoBERTa-LoRA, FAISS-Based Retrieval, and LLM Reasoning""",5,1,1,1,2,0,logged,"E=0: domain-specific spam-detection RAG, no benchmarking value; B=1: review-detection datasets only"
+2026-11-19,arxiv-2611.24006,arxiv,"""MARS Technical Report""",0,0,0,0,0,0,logged,"A=1: recommender cascade orchestration, not RAG benchmarking"
+2026-11-19,arxiv-2611.23127,arxiv,"""The Illusion of Grounding: Do Vision-Language Models Weigh Retrieved Text and Images Like an Ideal Observer?""",8,1,2,2,2,1,relevant,"A=2: new multimodal-RAG evaluation benchmark GIB-200K + grounding metrics, B=2: 4 models, formal framework, audit released"
+2026-11-19,arxiv-2611.23005,arxiv,"""CARE: Conversational Affective Response Retrieval for Internet Memes""",0,0,0,0,0,0,logged,"A=1: meme retrieval (affective CLIP), multimodal domain task, no RAG-NIMBF fit"
+2026-11-19,arxiv-2611.22766,arxiv,"""StitchRAG: Constructing Compact and Evidence-Preserving Contexts for RAG with Diffusion-Based Stitching""",7,2,2,1,1,1,relevant,"A=2: context compression/stitching is new technique (not expressible), B=2: 5 QA benchmarks + ablations"
+2026-11-19,arxiv-2611.22509,arxiv,"""MIPR: A Benchmark for Reasoning-Intensive Multimodal Intent-to-Product Retrieval with Multi-Category Solutions""",9,2,2,2,2,1,relevant,"A=2: new multimodal intent-to-product retrieval benchmark (HF dataset), B=2: multiple retrievers/rerankers + oracle"
+2026-11-19,arxiv-2611.22425,arxiv,"""LMMR: Learned Multigranular Memory Retrieval for Small Language Model Agents""",7,2,2,1,1,1,relevant,"A=2: learned multigranular memory retrieval with token budget (new technique), B=2: 3 multi-hop datasets, sig. tests"
+2026-11-19,arxiv-2611.22392,arxiv,"""Deal With It: On Better Schedules for Listwise Reranking""",9,2,2,2,2,1,relevant,"A=2: listwise LLM reranker schedules (LLM reranking = new provider), B=2: 6 LLMs, proofs, ablations; code (mixedbread)"
+2026-11-19,arxiv-2611.22353,arxiv,"""NONSENSE: Non-Semantic Strings Expose Semanticity Gaps in Dense Retrieval""",8,2,2,1,2,1,relevant,"A=2: new evaluation probe for dense retrievers (semanticity gap), B=2: 5 BEIR datasets x 3 retrievers"
+2026-11-19,arxiv-2611.21891,arxiv,"""Call-Efficient ICD-10 Code Prediction via Supervised Candidate Generation and Selective LLM Invocation""",0,0,0,0,0,0,logged,"A=1: ICD-10 classification pipeline, not retrieval benchmarking"
+2026-11-19,arxiv-2611.21823,arxiv,"""TUSI: A Citation-Grounded Graph-Based Benchmark""",8,1,2,2,2,1,relevant,"A=2: new RAG benchmark + graph retrieval baseline, but Persian legal domain, B=2: QA + MC tasks, baselines"
+2026-11-19,arxiv-2611.20758,arxiv,"""UniGraph: A Unified Graph-based Index for Dynamic Hybrid Dense-Sparse Vector Retrieval""",7,1,2,1,2,1,relevant,"A=2: hybrid dense-sparse graph index (new vector-store technique), B=2: QPS/Recall across datasets; C=1: code unclear"
+2026-11-19,arxiv-2611.20448,arxiv,"""IntentFlow: An Intent-Driven Real-Time Multimodal Search System with Image-Text Queries at Xiaohongshu""",0,0,0,0,0,0,logged,"A=1: industrial multimodal search system, intent modeling not expressible, proprietary"
+2026-11-19,arxiv-2611.20261,arxiv,"""Estimating Outpatient Visit Prices from Hospital Price Transparency Data using Large Language Models""",0,0,0,0,0,0,logged,"A=1: domain application (healthcare prices), no new RAG technique"
+2026-11-19,arxiv-2611.20094,arxiv,"""FRAAC: A French Multimodal Large Language Model and Dataset forPictogram-Based Augmentativ""",0,0,0,0,0,0,logged,"A=1: AAC pictogram generation, retrieval is auxiliary, not RAG benchmarking"
+2026-11-19,arxiv-2611.19900,arxiv,"""Attribute or Abstain: Evaluating Evidence-Grounded Retrieval on the Low-Resource African Business Web""",8,2,2,1,2,1,relevant,"A=2: new grounded-attribution/abstention benchmark, B=2: dual AI judges + 2 human annotators, 3 systems compared"
+2026-11-19,arxiv-2611.19862,arxiv,"""Bioformer-RetroMAE: retrieval-oriented pretraining of a compact biomedical language model for literature search""",8,2,2,1,2,1,relevant,"A=2: compact domain embedder (biomedical), B=2: BioASQ vs BioBERT/PubMedBERT; C=1: weights unclear license; D=2: 43M params"
+2026-11-19,arxiv-2611.19847,arxiv,"""Reflection Is Not Always Worth It: Budgeted Reflection Allocation for Recommendation Agents""",0,0,0,0,0,0,logged,"A=1: reflection budget allocation for recommender agents, not RAG"
+2026-11-19,arxiv-2611.19155,arxiv,"""Personalized Language Models for One-to-Many Private Communications""",0,0,0,0,0,0,logged,"A=0: personalized reply prediction, not retrieval; weak results (B=1)"
+2026-11-19,arxiv-2611.22991,s2-citer:RAGAS,"""RagHarnessDebugger: Jev-Guided Agentic RAG in Contract Inference Repair Auditing""",5,1,1,1,1,1,logged,"A=1: debugging/audit harness for agentic RAG repairs, marginal axis fit; B=1: one dataset (ContractNLI), small scale"
+2026-11-19,arxiv-2611.22338,s2-citer:RAGAS,"""Reliable Evaluation of AI Agents for Investment Research: A Framework for Performance and Validity Assessment""",0,0,0,0,0,0,logged,"A=1: agent-evaluation framework position paper, no RAG axis value"
+2026-11-19,gh-langchain-ai_langchain-langchain-openai==1.8.3,github-release,"""langchain-ai/langchain langchain-openai==1.8.3""",0,0,0,0,0,0,logged,release: no new capability (bugfix)
+2026-11-19,gh-langchain-ai_langchain-langchain==1.5.2,github-release,"""langchain-ai/langchain langchain==1.5.2""",0,0,0,0,0,0,logged,"release: no new capability (minor feat, no RAG capability)"
+2026-11-19,gh-langchain-ai_langchain-langchain==1.5.1,github-release,"""langchain-ai/langchain langchain==1.5.1""",0,0,0,0,0,0,logged,release: no new capability (bugfixes)
+2026-11-19,gh-langchain-ai_langchain-langchain-xai==1.4.1,github-release,"""langchain-ai/langchain langchain-xai==1.4.1""",0,0,0,0,0,0,logged,release: no new capability (headers)
+2026-11-19,gh-langchain-ai_langchain-langchain-openai==1.8.2,github-release,"""langchain-ai/langchain langchain-openai==1.8.2""",0,0,0,0,0,0,logged,release: no new capability (model support)

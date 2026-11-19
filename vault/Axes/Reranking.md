@@ -18,3 +18,5 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2611.03179]] — DMReranker: zero-shot reranker that splits an instructed query into typed clauses answered by a… (8)
 - [[arxiv-2611.02550]] — Listwise reranker where a generator writes a reasoning trace and a scorer reads relevance from… (9)
 - [[arxiv-2611.10405]] — Yuanbao-Reranker: Qwen3 reranker family, 0.6B beats 8B teachers on 5 reranking panels (9)
+
+- [[arxiv-2611.22392]] — Round-robin dealing of candidates cuts repair calls in listwise LLM reranking schedules (9)
