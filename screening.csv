@@ -390,3 +390,8 @@ date,id,source,title,score,A,B,C,D,E,decision,reason
 2026-11-19,gh-langchain-ai_langchain-langchain==1.5.1,github-release,"""langchain-ai/langchain langchain==1.5.1""",0,0,0,0,0,0,logged,release: no new capability (bugfixes)
 2026-11-19,gh-langchain-ai_langchain-langchain-xai==1.4.1,github-release,"""langchain-ai/langchain langchain-xai==1.4.1""",0,0,0,0,0,0,logged,release: no new capability (headers)
 2026-11-19,gh-langchain-ai_langchain-langchain-openai==1.8.2,github-release,"""langchain-ai/langchain langchain-openai==1.8.2""",0,0,0,0,0,0,logged,release: no new capability (model support)
+2026-11-20,arxiv-2611.22612,arxiv,"Right Diagnosis, Unsafe Route: Auditing Clinical AI Decision Trajectories and Corrective Oversight for Validity and Potential Harm",7,2,2,1,1,1,relevant,"A=2: new stepwise-safety trajectory audit for agentic systems; B=2: 3 sources, physician-calibrated"
+2026-11-20,gh-langchain-ai_langchain-langchain-openrouter==0.3.0,github-release,"langchain-ai/langchain langchain-openrouter==0.3.0",0,0,0,0,0,0,logged,"release: no new capability (Python EOL drop, model profiles)"
+2026-11-20,gh-langchain-ai_langchain-langchain-openai==1.8.5,github-release,"langchain-ai/langchain langchain-openai==1.8.5",0,0,0,0,0,0,logged,"release: no new capability (bugfixes)"
+2026-11-20,gh-langchain-ai_langchain-langchain-openai==1.8.4,github-release,"langchain-ai/langchain langchain-openai==1.8.4",0,0,0,0,0,0,logged,"release: no new capability (retryable errors)"
+2026-11-20,gh-langchain-ai_langchain-langchain-core==1.8.4,github-release,"langchain-ai/langchain langchain-core==1.8.4",0,0,0,0,0,0,logged,"release: no new capability (finish reason standardization)"

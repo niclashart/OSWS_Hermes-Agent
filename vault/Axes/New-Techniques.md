@@ -49,3 +49,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2611.16366]] — CURATOR: joint evidence-span selection via decision models (7)
 - [[arxiv-2611.15467]] — AutoOntic: automatic ontology induction for graph RAG (8)
 - [[arxiv-2611.22766]] — Diffusion-based sentence stitching builds compact, anchor-preserving RAG contexts (7)
+- [[arxiv-2611.22612]] — Trajectory audit: score intermediate decisions for patient safety, not just the final diagnosis (7)
