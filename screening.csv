@@ -395,3 +395,5 @@ date,id,source,title,score,A,B,C,D,E,decision,reason
 2026-11-20,gh-langchain-ai_langchain-langchain-openai==1.8.5,github-release,"langchain-ai/langchain langchain-openai==1.8.5",0,0,0,0,0,0,logged,"release: no new capability (bugfixes)"
 2026-11-20,gh-langchain-ai_langchain-langchain-openai==1.8.4,github-release,"langchain-ai/langchain langchain-openai==1.8.4",0,0,0,0,0,0,logged,"release: no new capability (retryable errors)"
 2026-11-20,gh-langchain-ai_langchain-langchain-core==1.8.4,github-release,"langchain-ai/langchain langchain-core==1.8.4",0,0,0,0,0,0,logged,"release: no new capability (finish reason standardization)"
+2026-11-21,arxiv-2611.25071,arxiv,"FinVeriQA: Financial Research Agents for Question Answering: Routing, Retrieval, MCP Tool Use, and Provenance-Aware Evidence Verification",8,2,2,1,2,1,relevant,"A=2: component-routed agentic pipeline + provenance-aware verification; B=2: significance-tested multi-baseline study; E=1: no verification stage/routing axis in NIMBF"
+2026-11-21,gh-ollama_ollama-v0.40.17,github-release,"ollama/ollama v0.40.17",0,0,0,0,0,0,logged,"release: no new capability (model add, serving fixes; no RAG-NIMBF axis value)"
