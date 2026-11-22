@@ -51,3 +51,6 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2611.22766]] — Diffusion-based sentence stitching builds compact, anchor-preserving RAG contexts (7)
 - [[arxiv-2611.22612]] — Trajectory audit: score intermediate decisions for patient safety, not just the final diagnosis (7)
 - [[arxiv-2611.25071]] — FinVeriQA: component-routed financial QA agents; verification must be independent of the writer's evidence (8)
+- [[arxiv-2611.26398]] — ReAct controller allocates retrieval budget across domain collections with evidence-sufficiency stopping, MRR +26.7% rel (7)
+- [[arxiv-2611.25247]] — BM25+dense rank fusion reaches 22% implicit R@20 near cross-encoder (26%) without its cost (7)
+- [[arxiv-2611.25229]] — LSP-RAG: soft-prompt latent scoring perspectives for multi-hop KG triplet retrieval, beats ChatGPT-retrieval baselines (7)
