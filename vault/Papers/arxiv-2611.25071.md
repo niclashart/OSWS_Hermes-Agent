@@ -42,3 +42,4 @@ likely [[New-Techniques]].
 ## Status log
 - 2026-11-21 screened
 - 2026-11-23 weekly fit: fit
+- 2026-11-23 impl-check: NIMBF missing, Blueprint partial

@@ -36,3 +36,4 @@ Reranking axis only supports cross-encoder reranker_models; LLM listwise schedul
 ## Status log
 - 2026-11-19 screened
 - 2026-11-23 weekly fit: fit
+- 2026-11-23 impl-check: NIMBF missing, Blueprint not-applicable
