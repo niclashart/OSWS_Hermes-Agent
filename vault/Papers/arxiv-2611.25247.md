@@ -6,7 +6,7 @@ year: 2026
 score: 7
 rubric: {A: 2, B: 2, C: 2, D: 2, E: 1}
 axis: [New-Techniques]
-status: screened
+status: fit
 screened: 2026-11-22
 source: https://arxiv.org/abs/2611.25247
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.25247/paper.pdf
@@ -22,3 +22,4 @@ BM25 wins explicit citations (94% R@20), dense wins implicit (16%); their rankin
 
 ## Status log
 - 2026-11-22 screened (7/10)
+- 2026-11-23 weekly fit: fit

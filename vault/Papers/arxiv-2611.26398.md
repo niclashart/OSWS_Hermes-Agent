@@ -6,7 +6,7 @@ year: 2026
 score: 7
 rubric: {A: 2, B: 1, C: 1, D: 2, E: 1}
 axis: [New-Techniques]
-status: screened
+status: fit
 screened: 2026-11-22
 source: https://arxiv.org/abs/2611.26398
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.26398/paper.pdf
@@ -22,3 +22,4 @@ ReAct-style controller allocates a retrieval budget across domain-specific colle
 
 ## Status log
 - 2026-11-22 screened (7/10)
+- 2026-11-23 weekly fit: fit

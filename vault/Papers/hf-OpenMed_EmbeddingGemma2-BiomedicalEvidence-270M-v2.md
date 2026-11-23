@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 1, B: 1, C: 2, D: 2, E: 2}
 axis: [Embedding]
-status: screened
+status: proposed
 screened: 2026-11-23
 source: https://huggingface.co/OpenMed/EmbeddingGemma2-BiomedicalEvidence-270M-v2
 summary: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/hf-OpenMed_EmbeddingGemma2-BiomedicalEvidence-270M-v2/summary.md
@@ -32,3 +32,4 @@ A 1 · B 1 · C 2 · D 2 · E 2 — biomedical domain fine-tune (A max 1), unver
 
 ## Status log
 - 2026-11-23 screened
+- 2026-11-23 weekly fit: proposed

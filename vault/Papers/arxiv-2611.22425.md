@@ -6,7 +6,7 @@ year: 2026
 score: 7
 rubric: {A: 2, B: 2, C: 1, D: 1, E: 1}
 axis: [Retrieval]
-status: screened
+status: fit
 screened: 2026-11-19
 source: https://arxiv.org/abs/2611.22425
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.22425/paper.pdf
@@ -35,3 +35,4 @@ Not expressible: learned selection beyond similarity/MMR/multi-hop. Weekly fit c
 
 ## Status log
 - 2026-11-19 screened
+- 2026-11-23 weekly fit: fit

@@ -6,7 +6,7 @@ year: 2026
 score: 9
 rubric: {A: 2, B: 2, C: 2, D: 2, E: 1}
 axis: [Datasets]
-status: screened
+status: fit
 screened: 2026-11-19
 source: https://arxiv.org/abs/2611.22509
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.22509/paper.pdf
@@ -35,3 +35,4 @@ Datasets axis: HF dataset (leequeue/MIPR) loadable via hf-generic for text-only 
 
 ## Status log
 - 2026-11-19 screened
+- 2026-11-23 weekly fit: fit

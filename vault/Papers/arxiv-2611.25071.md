@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 2, C: 1, D: 2, E: 1}
 axis: [RAG-System, Evaluation]
-status: screened
+status: fit
 screened: 2026-11-21
 source: https://arxiv.org/abs/2611.25071
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.25071/paper.pdf
@@ -41,3 +41,4 @@ likely [[New-Techniques]].
 
 ## Status log
 - 2026-11-21 screened
+- 2026-11-23 weekly fit: fit
