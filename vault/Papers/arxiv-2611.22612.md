@@ -6,7 +6,7 @@ year: 2026
 score: 7
 rubric: {A: 2, B: 2, C: 1, D: 1, E: 1}
 axis: [Evaluation]
-status: screened
+status: fit
 screened: 2026-11-20
 source: https://arxiv.org/abs/2611.22612
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.22612/paper.pdf
@@ -32,3 +32,4 @@ Not expressible today: RAG-NIMBF scores final answers only. Would need stepwise 
 
 ## Status log
 - 2026-11-20 screened
+- 2026-11-23 weekly fit: fit

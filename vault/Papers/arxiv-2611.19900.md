@@ -6,7 +6,7 @@ year: 2026
 score: 8
 rubric: {A: 2, B: 2, C: 1, D: 2, E: 1}
 axis: [Evaluation]
-status: screened
+status: fit
 screened: 2026-11-19
 source: https://arxiv.org/abs/2611.19900
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.19900/paper.pdf
@@ -35,3 +35,4 @@ Evaluation axis: abstention/attribution scoring needs new custom metrics; datase
 
 ## Status log
 - 2026-11-19 screened
+- 2026-11-23 weekly fit: fit

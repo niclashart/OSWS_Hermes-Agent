@@ -6,7 +6,7 @@ year: 2026
 score: 7
 rubric: {A: 2, B: 2, C: 1, D: 2, E: 0}
 axis: [New-Techniques]
-status: screened
+status: fit
 screened: 2026-11-22
 source: https://arxiv.org/abs/2611.25229
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.25229/paper.pdf
@@ -22,3 +22,4 @@ KG-RAG multi-hop triplet retrieval scored by K latent perspectives (perspective-
 
 ## Status log
 - 2026-11-22 screened (7/10)
+- 2026-11-23 weekly fit: fit

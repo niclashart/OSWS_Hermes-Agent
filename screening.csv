@@ -1,3 +1,4 @@
+date,id,source,title,score,A,B,C,D,E,decision,reason
 2026-11-22,arxiv-2611.26398,arxiv,"Democratizing Cross-Project Knowledge for Transforming Water Governance and Climate Resilience: an Agentic AI Ecosystem",7,2,1,1,2,1,relevant,"A=2: agentic RAG with retrieval-budget allocation + stopping criterion (new technique); B=1: one retrieval benchmark, single baseline (MRR +26.7% rel); E=1: budgeted agentic retrieval loop not a NIMBF axis"
 2026-11-22,arxiv-2611.25582,arxiv,"AutoRAGBench: A Benchmark for LLM Agents Automating RAG System Development",7,2,2,1,2,0,relevant,"A=2: new benchmark/dataset axis (Evaluation/Datasets); B=2: 9 tasks, 9 agent configs vs human-SOTA; E=0: benchmark of RAG-building agents, not a benchmarkable RAG configuration"
 2026-11-22,arxiv-2611.25521,arxiv,"DRVEXO-4B-Unified: Design and Evaluation of a Modular Speech-Vision System",0,0,0,0,0,0,logged,"A=0: multimodal assistant model, unrelated to RAG pipelines"

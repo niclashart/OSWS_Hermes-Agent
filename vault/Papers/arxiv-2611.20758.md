@@ -6,7 +6,7 @@ year: 2026
 score: 7
 rubric: {A: 1, B: 2, C: 1, D: 2, E: 1}
 axis: [Vector-Store]
-status: screened
+status: fit
 screened: 2026-11-19
 source: https://arxiv.org/abs/2611.20758
 pdf: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/arxiv-2611.20758/paper.pdf
@@ -35,3 +35,4 @@ Vector-Store axis supports chroma/lancedb only; a hybrid-graph index would be a 
 
 ## Status log
 - 2026-11-19 screened
+- 2026-11-23 weekly fit: fit

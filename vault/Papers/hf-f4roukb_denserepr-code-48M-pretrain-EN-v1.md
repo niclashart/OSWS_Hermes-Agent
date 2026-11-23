@@ -6,7 +6,7 @@ year: 2026
 score: 10
 rubric: {A: 2, B: 2, C: 2, D: 2, E: 2}
 axis: [Embedding]
-status: screened
+status: proposed
 screened: 2026-11-18
 source: https://huggingface.co/f4roukb/denserepr-code-48M-pretrain-EN-v1
 summary: https://github.com/niclashart/OSWS_Hermes-Agent/blob/main/papers/hf-f4roukb_denserepr-code-48M-pretrain-EN-v1/summary.md
@@ -35,3 +35,4 @@ code-RAG experiments; compare against current default embedder (one-axis change)
 
 ## Status log
 - 2026-11-18 screened
+- 2026-11-23 weekly fit: proposed
