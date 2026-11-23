@@ -439,6 +439,7 @@
 "hf-HukukcuApp_tr-legal-embedding-gemma-2",
 "hf-MineAITechnology_mine-embed-v1",
 "hf-MineAITechnology_mine-embed-v2",
+"hf-OpenMed_EmbeddingGemma2-BiomedicalEvidence-270M-v2",
 "hf-VAGOsolutions_SauerkrautLM-MoEdernColBERT-115M",
 "hf-VAGOsolutions_SauerkrautLM-MoEdernColBERT-27M",
 "hf-Yaldat_Yalda-Embedding",
