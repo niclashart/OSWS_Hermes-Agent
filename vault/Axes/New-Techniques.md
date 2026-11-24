@@ -54,3 +54,8 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2611.26398]] — ReAct controller allocates retrieval budget across domain collections with evidence-sufficiency stopping, MRR +26.7% rel (7)
 - [[arxiv-2611.25247]] — BM25+dense rank fusion reaches 22% implicit R@20 near cross-encoder (26%) without its cost (7)
 - [[arxiv-2611.25229]] — LSP-RAG: soft-prompt latent scoring perspectives for multi-hop KG triplet retrieval, beats ChatGPT-retrieval baselines (7)
+- [[arxiv-2611.28519]] — SupportChain: index-free multi-hop RAG via trace-calibrated execution merging, 9B reader beats HippoRAG 2 (8)
+- [[arxiv-2611.27350]] — GRACE: controlled evidence interventions benchmark for GraphRAG diagnosis (8)
+- [[arxiv-2611.27410]] — Relative-entropy detection of synonym-substitution corpus poisoning + runtime verification (8)
+- [[arxiv-2611.29966]] — Structure-exploiting hierarchical retrieval (BM25+dense chapter selection, delta ingestion) for long documents (8)
+- [[arxiv-2611.28638]] — ExSD: self-distilled LoRA adapter flattens lost-in-the-middle without gold answers (8)
