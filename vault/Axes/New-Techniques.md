@@ -59,3 +59,8 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2611.27410]] — Relative-entropy detection of synonym-substitution corpus poisoning + runtime verification (8)
 - [[arxiv-2611.29966]] — Structure-exploiting hierarchical retrieval (BM25+dense chapter selection, delta ingestion) for long documents (8)
 - [[arxiv-2611.28638]] — ExSD: self-distilled LoRA adapter flattens lost-in-the-middle without gold answers (8)
+- [[arxiv-2611.33124]] — BM25-only conversational memory with evidence-guided query-time lexical expansion (7)
+- [[arxiv-2611.32917]] — training-free System One LLM reranking per agentic search step (7)
+- [[arxiv-2611.31771]] — dense retrieval interleaved with SPARQL-planned (parsed, not executed) Wikidata traversal (8)
+- [[arxiv-2611.30588]] — subgraph-similarity Graph RAG for maintenance, 8 months in production (7)
+- [[arxiv-2611.30335]] — dynamic multi-hop multi-turn RAG evaluation via user simulation with conversation caching (8)

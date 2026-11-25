@@ -18,3 +18,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[hf-f4roukb_denserepr-code-48M-pretrain-EN-v1]] — 48M code-retrieval embedder, 64.84 nDCG@10 CoIR, best dense (10)
 - [[arxiv-2611.19862]] — 43M-param biomedical embedder (RetroMAE pretraining) beats BERT-base bi-encoders (8)
 - [[hf-OpenMed_EmbeddingGemma2-BiomedicalEvidence-270M-v2]] — 271M biomedical fine-tune of embeddinggemma-2, MedQuAD NDCG@10 91.76, no external baselines (8)
+- [[hf-harims95_hobbylm-embed-140m]] — 140M sparse-MoE embedder, MTEB(eng,v2) 62.33, Apache-2.0, slot-ready (7)
