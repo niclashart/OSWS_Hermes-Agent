@@ -11,3 +11,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2610.07091]] — Explicit ingestion stage: selective OCR routing and structure-aware parent-child chunker (hit@1 68.6%, MRR 0.77). (7)
 - [[arxiv-2610.37080]] — Training-free evidence-delivery layer rebuilding HTML into structure-completed evidence units at unchanged token budget (8)
 - [[arxiv-2610.36557]] — Supervised question-evidence chunking as utility maximization: DP for non-overlap, submodular greedy for overlap (8)
+- [[arxiv-2611.34366]] — ConTra: RL-trained 2B contextual chunk prefixes, beats prompted 9B at 7.74x index speed (7)

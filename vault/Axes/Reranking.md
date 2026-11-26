@@ -20,3 +20,5 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2611.10405]] — Yuanbao-Reranker: Qwen3 reranker family, 0.6B beats 8B teachers on 5 reranking panels (9)
 
 - [[arxiv-2611.22392]] — Round-robin dealing of candidates cuts repair calls in listwise LLM reranking schedules (9)
+- [[arxiv-2611.34188]] — MINE: training-free prompt-injection defense via relevance maximization, doubles as reranker (7)
+- [[arxiv-2611.33844]] — Cacheable coarse scorers before rerankers: +4.02-9.43pp accuracy at 1.57-1.88x speed (8)

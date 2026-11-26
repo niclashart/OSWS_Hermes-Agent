@@ -13,3 +13,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[2610.40314]] — Decompose, Estimate, Select: Coverage-Aware Context Construction for Long-Form RAG (8)
 - [[arxiv-2611.16488]] — LAAM: active-learning approximation of LLM reranking at 3.3% energy (7)
 - [[arxiv-2611.15538]] — QDRAG: query decomposition for faithful multi-hop citations (7)
+- [[arxiv-2611.33497]] — CA-RAG: ontology/KG constraint-aligned query expansion for compliance retrieval (7)
