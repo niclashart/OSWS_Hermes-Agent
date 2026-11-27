@@ -40,3 +40,6 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2611.19900]] — Claim-level attribution/abstention benchmark on sparse African business web (8)
 - [[arxiv-2611.23127]] — GIB-200K: how VLM-RAG weighs text vs image evidence; Grounding Illusion Score (8)
 - [[arxiv-2611.30335]] — dynamic multi-hop multi-turn evaluation, user simulation + conversation cacher (8)
+- [[arxiv-2611.33428]] — part-level abstention eval: unsupported-claim 0.71/0.90→0.00/0.06 with one grounded instruction (8)
+- [[arxiv-2611.31269]] — LM-judge reliability: κ 0.98 with reference key, collapses to 0.56/0.1 without; rankings invert (7)
+- [[arxiv-2611.31266]] — multi-run eval: retrieval hit 69.4% any-run vs 50.9% every-run; retrieval = 43.9% of divergence (7)
