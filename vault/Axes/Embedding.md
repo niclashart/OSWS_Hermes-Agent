@@ -20,3 +20,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[hf-OpenMed_EmbeddingGemma2-BiomedicalEvidence-270M-v2]] — 271M biomedical fine-tune of embeddinggemma-2, MedQuAD NDCG@10 91.76, no external baselines (8)
 - [[hf-harims95_hobbylm-embed-140m]] — 140M sparse-MoE embedder, MTEB(eng,v2) 62.33, Apache-2.0, slot-ready (7)
 - [[hf-dotproductx_breadbowl-embed-v1.3]] — 0.8B slot model, embed+rerank in one pass, 50x faster rerank, Apache-2.0, new provider needed (8)
+- [[hf-FrontiersMind_EmbeddingNandi-150M]] — 146M embedder, 16K context, En+Indic, MTEB avg 71.99 vs granite 50.97, Apache-2.0, slot-ready (8)

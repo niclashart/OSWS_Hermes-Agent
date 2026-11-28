@@ -23,3 +23,4 @@ Back to [[RAG Radar]] · capabilities: see `reference/nimbf-capabilities.md`
 - [[arxiv-2611.34188]] — MINE: training-free prompt-injection defense via relevance maximization, doubles as reranker (7)
 - [[arxiv-2611.33844]] — Cacheable coarse scorers before rerankers: +4.02-9.43pp accuracy at 1.57-1.88x speed (8)
 - [[hf-dotproductx_breadbowl-embed-v1.3]] — reranking from stored slot vectors, no model pass; level with Qwen3 0.6B stack, +5.5 DL20 (8)
+- [[hf-nvidia_Nemotron-3.5-Rerank-1B-BF16]] — 1.6B multilingual+multimodal reranker, beats Qwen3-VL-Reranker-2B on ViDoRe V3 (8)
